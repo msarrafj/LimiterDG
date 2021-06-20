@@ -1,4 +1,4 @@
-<center> # Codes for a bound-preserving discontinuous Galerkin solver for incompressible two-phase flow problem implemented in Firedrake project </center>
+<center> <h1>Codes for a bound-preserving discontinuous Galerkin solver for incompressible two-phase flow problem implemented in Firedrake project</h1> </center>
 
 Numerical examples for
 > Mohammad. S. Joshaghani and Beatrice Riviere,
