@@ -12,8 +12,7 @@ and heterogeneity. More details are discussed in the paper.
 ## Notes on limiters
 At each time step, following the Newton solver convergence, we first apply a new flux limiter and then a slope limiter. 
 Implementation of the flux limiter algorithm is provided in the module ***FluxLimiter*** along with an auxiliary 
-flux wrapper module named ***Hsign***. Global stopping criteria for all problem sets are taken as 
-$\epsilon_1=\epsilon_2= 10^{-6}$.  As for the slope limiter, we use the native ***VertexBasedLimiter*** module embedded in the 
+flux wrapper module named ***Hsign***. As for the slope limiter, we use the native ***VertexBasedLimiter*** module embedded in the 
 Firedrake project.
 
 
