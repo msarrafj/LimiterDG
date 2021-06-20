@@ -1,4 +1,4 @@
-#  Python codes for ***Limited discontinuous Galerkin scheme for incompressible two phase flow problems*** implemented in Firedrake project. 
+# Codes for a bound-preserving discontinuous Galerkin solver for incompressible two-phase flow problem implemented in Firedrake project
 Numerical examples for
 > Mohammad. S. Joshaghani and Beatrice Riviere,
 > ``Maximum-principle-satisfying discontinuous Galerkin methods for incompressible two-phase immiscible flow" Available in [arXiv](https://arxiv.org/abs/).
