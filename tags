@@ -1,0 +1,1857 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	Codes/Pressure_driven/Barrier/FD_Limited.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Verification/Convergence/DG+FL+SL.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Verification/Convergence/DG+FL.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Verification/Convergence/DG+SL.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Verification/Convergence/DG.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+A	Codes/Verification/Convergence/DG_avg.py	/^A = assemble(a_init, bcs=bcs, mat_type='aij')$/;"	v
+CELL_x	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^CELL_x = np.zeros((row,col))$/;"	v
+CELL_x	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^CELL_x = np.zeros((row,col))$/;"	v
+CELL_x	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^CELL_x = np.zeros((row,col))$/;"	v
+CELL_y	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^CELL_y = np.zeros((row,col))$/;"	v
+CELL_y	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^CELL_y = np.zeros((row,col))$/;"	v
+CELL_y	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^CELL_y = np.zeros((row,col))$/;"	v
+D	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^D = Function(v)$/;"	v
+D	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^D = Function(v)$/;"	v
+D0	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^D0 = interpolate( D_in, v)$/;"	v
+D0	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^D0 = interpolate(D_in, v)$/;"	v
+DAvg	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^DAvg = Function(kSpace).interpolate(D0)$/;"	v
+DAvg	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^DAvg = Function(kSpace).interpolate(D0)$/;"	v
+DAvg0	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^DAvg0 = DAvg$/;"	v
+DAvg0	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^DAvg0 = DAvg$/;"	v
+DG_val	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^            DG_val = np.zeros((2*nx,2))$/;"	v
+D_L	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^D_L = Constant(1-s_ro)$/;"	v
+D_in	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^D_in = Constant(s_rw)$/;"	v
+D_in	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^D_in =project(conditional(pow((x[0]-1.5),2)+pow((x[1]-1.5),2) < (0.5+1e-7) , 1., 0.),v)$/;"	v
+D_sol	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^D_sol = Function(v)$/;"	v
+D_sol	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^D_sol = Function(v)$/;"	v
+DoF	Codes/Pressure_driven/Barrier/FD_Limited.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Verification/Convergence/DG+FL+SL.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Verification/Convergence/DG+FL.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Verification/Convergence/DG+SL.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Verification/Convergence/DG.py	/^  DoF = solution_vec.getSize()$/;"	v
+DoF	Codes/Verification/Convergence/DG_avg.py	/^  DoF = solution_vec.getSize()$/;"	v
+F	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    F =  a_p1 - L_p1 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    F =  a_p1 - L_p1 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    F =  a_p1 - L_p1 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    F =  a_p1 - L_p1 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    F =  a_p1 - L_p1 + a_s - L_s$/;"	v
+F	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    F =  a_p2 - L_p2 + a_s - L_s$/;"	v
+F	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^       (1.\/dt) * 0.2 * phi * D0 * dx $/;"	v
+F	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^    + dot( jump(phi) , dot (avg( F_w(D)) , n('+')) + 0.5 * abs(dot( dFds(D0)('+') , n('+') )) * jump(D)  ) * dS$/;"	v
+FLUX	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    FLUX = get_flux(mesh,fluxes).apply()$/;"	v
+FLUX	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    FLUX = get_flux(mesh,fluxes).apply()$/;"	v
+FLUX	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    FLUX = get_flux(mesh,fluxes).apply()$/;"	v
+FLUX	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    FLUX = get_flux(mesh,fluxes).apply()$/;"	v
+FLUX	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    FLUX = get_flux(mesh,fluxes).apply()$/;"	v
+FLUX	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    FLUX = get_flux(mesh,fluxes).apply()$/;"	v
+FL_end	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    FL_end = tm.time()$/;"	v
+FL_end	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    FL_end = tm.time()$/;"	v
+FL_end	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    FL_end = tm.time()$/;"	v
+FL_end	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    FL_end = tm.time()$/;"	v
+FL_end	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    FL_end = tm.time()$/;"	v
+FL_solve_start	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    FL_solve_start = tm.time()$/;"	v
+FL_solve_start	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    FL_solve_start = tm.time()$/;"	v
+FL_solve_start	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    FL_solve_start = tm.time()$/;"	v
+FL_solve_start	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    FL_solve_start = tm.time()$/;"	v
+FL_solve_start	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    FL_solve_start = tm.time()$/;"	v
+FL_start	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    FL_start = tm.time()$/;"	v
+FL_start	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    FL_start = tm.time()$/;"	v
+FL_start	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    FL_start = tm.time()$/;"	v
+FL_start	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    FL_start = tm.time()$/;"	v
+FL_start	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    FL_start = tm.time()$/;"	v
+FL_start	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    FL_start = tm.time()$/;"	v
+F_flux	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    area * sigma_bnd\/h * S_L * w * ds(1) $/;"	v
+F_flux	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    area * sigma_bnd\/h * S_L * w * ds(1) $/;"	v
+F_flux	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    area * sigma_bnd\/h * S_L * w * ds(1) $/;"	v
+F_flux	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    area * sigma_bnd\/h * S_L * w * ds(1) $/;"	v
+F_flux	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    area * sigma_bnd\/h * S_L * w * ds(1) $/;"	v
+F_flux	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    area * sigma_bnd\/h * S_L * w * ds(1) $/;"	v
+F_flux	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    area * sigma\/h_avg * jump(sSol) * w('+')  * dS $/;"	v
+F_flux	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    area * sigma\/h_avg * jump(sSol) * w('+')  * dS $/;"	v
+F_flux	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    area * sigma\/h_avg * jump(sSol) * w('+')  * dS $/;"	v
+F_flux	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    area * sigma\/h_avg * jump(sSol) * w('+')  * dS $/;"	v
+F_flux	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    area * sigma\/h_avg * jump(sSol) * w('+')  * dS $/;"	v
+F_w	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^def F_w(D):$/;"	f
+F_w	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^def F_w(D):$/;"	f
+H1_error_p	Codes/Verification/Convergence/DG+FL+SL.py	/^H1_error_p = errornorm(p_ex,p0,'H1')$/;"	v
+H1_error_p	Codes/Verification/Convergence/DG+FL.py	/^H1_error_p = errornorm(p_ex,p0,'H1')$/;"	v
+H1_error_p	Codes/Verification/Convergence/DG+SL.py	/^H1_error_p = errornorm(p_ex,p0,'H1')$/;"	v
+H1_error_p	Codes/Verification/Convergence/DG.py	/^H1_error_p = errornorm(p_ex,p0,'H1')$/;"	v
+H1_error_s	Codes/Verification/Convergence/DG+FL+SL.py	/^H1_error_s = errornorm(s_ex,s0,'H1')#this is \\int (v, v) + (\\nabla v, \\nabla v) \\mathrm{d}x`$/;"	v
+H1_error_s	Codes/Verification/Convergence/DG+FL.py	/^H1_error_s = errornorm(s_ex,s0,'H1')#this is \\int (v, v) + (\\nabla v, \\nabla v) \\mathrm{d}x`$/;"	v
+H1_error_s	Codes/Verification/Convergence/DG+SL.py	/^H1_error_s = errornorm(s_ex,s0,'H1')#this is \\int (v, v) + (\\nabla v, \\nabla v) \\mathrm{d}x`$/;"	v
+H1_error_s	Codes/Verification/Convergence/DG.py	/^H1_error_s = errornorm(s_ex,s0,'H1')#this is \\int (v, v) + (\\nabla v, \\nabla v) \\mathrm{d}x`$/;"	v
+HSIGN	Codes/Pressure_driven/Barrier/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Pressure_driven/Gravity/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Pressure_driven/Homogen/Compare/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Pressure_driven/Nonhomogen/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Quarter_five_spot/Gravity/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Quarter_five_spot/Homogen/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Quarter_five_spot/SPE10/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Verification/1D_Buckley_Leverett/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Verification/2D_BUckley_Leverett/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+HSIGN	Codes/Verification/Convergence/Limiter/hsign.py	/^    def HSIGN(self):$/;"	m	class:SignFlip
+Hight	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^Hight = 100$/;"	v
+J	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    J = derivative(F, u, du)$/;"	v
+J	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    J = derivative(F, u, du)$/;"	v
+K	Codes/Pressure_driven/Barrier/FD_Limited.py	/^K = Constant(1e-8)$/;"	v
+K	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^K = Constant(1e-8)$/;"	v
+K	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^K = Constant(1e-8)$/;"	v
+K	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^K = Constant(1e-8)$/;"	v
+K	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^K = Constant(1e-8)$/;"	v
+K	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^K = interpolate(k_subdomain,kSpace)$/;"	v
+K	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^K = Constant(3.0e-11)$/;"	v
+K	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^K = Constant(1e-13)$/;"	v
+K	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^K = Constant(1e-13)$/;"	v
+K	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^K = Constant(1e-13)$/;"	v
+K	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^K = interpolate(MyExpression(),kSpace)$/;"	v
+K	Codes/Verification/Convergence/DG+FL+SL.py	/^K = Constant(1)$/;"	v
+K	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^K = Constant(1)$/;"	v
+K	Codes/Verification/Convergence/DG+FL.py	/^K = Constant(1)$/;"	v
+K	Codes/Verification/Convergence/DG+SL.py	/^K = Constant(1)$/;"	v
+K	Codes/Verification/Convergence/DG.py	/^K = Constant(1)$/;"	v
+K	Codes/Verification/Convergence/DG_avg.py	/^K = Constant(1)$/;"	v
+L2_error_p	Codes/Verification/Convergence/DG+FL+SL.py	/^L2_error_p = errornorm(p_ex,p0,'L2')$/;"	v
+L2_error_p	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^L2_error_p = errornorm(p_ex_avg,p0_avg,'L2')$/;"	v
+L2_error_p	Codes/Verification/Convergence/DG+FL.py	/^L2_error_p = errornorm(p_ex,p0,'L2')$/;"	v
+L2_error_p	Codes/Verification/Convergence/DG+SL.py	/^L2_error_p = errornorm(p_ex,p0,'L2')$/;"	v
+L2_error_p	Codes/Verification/Convergence/DG.py	/^L2_error_p = errornorm(p_ex,p0,'L2')$/;"	v
+L2_error_p	Codes/Verification/Convergence/DG_avg.py	/^L2_error_p = errornorm(p_ex_avg,p0_avg,'L2')$/;"	v
+L2_error_s	Codes/Verification/Convergence/DG+FL+SL.py	/^L2_error_s = errornorm(s_ex,s0,'L2')$/;"	v
+L2_error_s	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^L2_error_s = errornorm(s_ex_avg,s0_avg,'L2')$/;"	v
+L2_error_s	Codes/Verification/Convergence/DG+FL.py	/^L2_error_s = errornorm(s_ex,s0,'L2')$/;"	v
+L2_error_s	Codes/Verification/Convergence/DG+SL.py	/^L2_error_s = errornorm(s_ex,s0,'L2')$/;"	v
+L2_error_s	Codes/Verification/Convergence/DG.py	/^L2_error_s = errornorm(s_ex,s0,'L2')$/;"	v
+L2_error_s	Codes/Verification/Convergence/DG_avg.py	/^L2_error_s = errornorm(s_ex_avg,s0_avg,'L2')$/;"	v
+L_init	Codes/Pressure_driven/Barrier/FD_Limited.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Verification/Convergence/DG+FL+SL.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Verification/Convergence/DG+FL.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Verification/Convergence/DG+SL.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Verification/Convergence/DG.py	/^L_init = L_p0 + L_s0$/;"	v
+L_init	Codes/Verification/Convergence/DG_avg.py	/^L_init = L_p0 + L_s0$/;"	v
+L_p0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Verification/Convergence/DG+FL+SL.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Verification/Convergence/DG+FL.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Verification/Convergence/DG+SL.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Verification/Convergence/DG.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p0	Codes/Verification/Convergence/DG_avg.py	/^L_p0 = p_an * z * dx$/;"	v
+L_p1	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    sigma_bnd\/h * Pc(S_L,S_L) * z * ds(1)$/;"	v
+L_p1	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    sigma_bnd\/h * Pc(S_L,S_L) * z * ds(1) $/;"	v
+L_p1	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    sigma_bnd\/h * Pc(S_L,S_L) * z * ds(1) $/;"	v
+L_p1	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    sigma_bnd\/h * Pc(S_L,S_L) * z * ds(1) $/;"	v
+L_p1	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    sigma_bnd\/h * Pc(S_L,S_L) * z * ds(1) $/;"	v
+L_p1	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    sigma_bnd\/h * Pc(S_L,S_L) * z * ds(1) $/;"	v
+L_p1	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx $/;"	v
+L_p1	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx $/;"	v
+L_p1	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx $/;"	v
+L_p1	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx $/;"	v
+L_p1	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx $/;"	v
+L_p2	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    sigma_bnd\/h * P_R * z * ds(2)$/;"	v
+L_p2	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    sigma_bnd\/h * P_R * z * ds(2)$/;"	v
+L_p2	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    sigma_bnd\/h * P_R * z * ds(2)$/;"	v
+L_p2	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    sigma_bnd\/h * P_R * z * ds(2)$/;"	v
+L_p2	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    sigma_bnd\/h * P_R * z * ds(2)$/;"	v
+L_p2	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    sigma_bnd\/h * P_R * z * ds(2)$/;"	v
+L_p2	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx$/;"	v
+L_p2	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx$/;"	v
+L_p2	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx$/;"	v
+L_p2	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx$/;"	v
+L_p2	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    ( f_o(0.85) * q_I -  f_o(s0) * q_P) * z * dx$/;"	v
+L_s	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    sigma_bnd\/h * S_L * v * ds(1) $/;"	v
+L_s	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    sigma_bnd\/h * S_L * v * ds(1) $/;"	v
+L_s	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    sigma_bnd\/h * S_L * v * ds(1) $/;"	v
+L_s	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    sigma_bnd\/h * S_L * v * ds(1) $/;"	v
+L_s	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    sigma_bnd\/h * S_L * v * ds(1) $/;"	v
+L_s	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    sigma_bnd\/h * S_L * v * ds(1) $/;"	v
+L_s	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^      (f_w(0.85) * q_I - f_w(s0)*q_P) * v * dx $/;"	v
+L_s	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^      (f_w(0.85) * q_I - f_w(s0)*q_P) * v * dx $/;"	v
+L_s	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^      (f_w(0.85) * q_I - f_w(s0)*q_P) * v * dx $/;"	v
+L_s	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^      (f_w(0.85) * q_I - f_w(s0)*q_P) * v * dx $/;"	v
+L_s	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^      (f_w(0.85) * q_I - f_w(s0)*q_P) * v * dx $/;"	v
+L_s0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Verification/Convergence/DG+FL+SL.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Verification/Convergence/DG+FL.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Verification/Convergence/DG+SL.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Verification/Convergence/DG.py	/^L_s0 = s_an * v * dx$/;"	v
+L_s0	Codes/Verification/Convergence/DG_avg.py	/^L_s0 = s_an * v * dx$/;"	v
+Length	Codes/Pressure_driven/Barrier/FD_Limited.py	/^Length = 100$/;"	v
+Length	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^Length = 100$/;"	v
+Length	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^Length = 200$/;"	v
+Length	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^Length = 100$/;"	v
+Length	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^Length = 100$/;"	v
+Length	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^Length = 100$/;"	v
+Length	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^Length = 1000$/;"	v
+Length	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^Length = 100$/;"	v
+Length	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^Length = 100$/;"	v
+Length	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^Length = 100$/;"	v
+Length	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^Length = 300$/;"	v
+MyExpression	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^class MyExpression(Expression):$/;"	c
+P_L	Codes/Pressure_driven/Barrier/FD_Limited.py	/^P_L = Constant(3e6)$/;"	v
+P_L	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^P_L = Constant(3e6)$/;"	v
+P_L	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^P_L = Constant(3e6)$/;"	v
+P_L	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^P_L = Constant(3e6)$/;"	v
+P_L	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^P_L = Constant(3e6)$/;"	v
+P_L	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^P_L = Constant(3e6)$/;"	v
+P_R	Codes/Pressure_driven/Barrier/FD_Limited.py	/^P_R = Constant(1e6)$/;"	v
+P_R	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^P_R = Constant(1e6)$/;"	v
+P_R	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^P_R = Constant(1e6)$/;"	v
+P_R	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^P_R = Constant(1e6)$/;"	v
+P_R	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^P_R = Constant(1e6)$/;"	v
+P_R	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^P_R = Constant(1e6)$/;"	v
+P_d	Codes/Pressure_driven/Barrier/FD_Limited.py	/^P_d = 1000$/;"	v
+P_d	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^P_d = 1000$/;"	v
+P_d	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^P_d = 1000$/;"	v
+P_d	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^P_d = 1000$/;"	v
+P_d	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^P_d = 1000$/;"	v
+P_d	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^P_d = 1000$/;"	v
+P_d	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^P_d = 2000$/;"	v
+P_d	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^P_d = 2000$/;"	v
+P_d	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^P_d = 2000$/;"	v
+P_d	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^P_d = 2000$/;"	v
+P_d	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^P_d = 4500$/;"	v
+Pc	Codes/Pressure_driven/Barrier/FD_Limited.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Verification/Convergence/DG+FL+SL.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Verification/Convergence/DG+FL.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Verification/Convergence/DG+SL.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Verification/Convergence/DG.py	/^def Pc(s,s0):$/;"	f
+Pc	Codes/Verification/Convergence/DG_avg.py	/^def Pc(s,s0):$/;"	f
+Perm	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    def Perm(self,x_val,y_val):$/;"	m	class:MyExpression
+R	Codes/Pressure_driven/Barrier/FD_Limited.py	/^R = 0.55$/;"	v
+R	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^R = 0.55$/;"	v
+R	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^R = 0.55$/;"	v
+R	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^R = 0.55$/;"	v
+R	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^R = 0.55$/;"	v
+R	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^R = 0.55$/;"	v
+R	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^R = 0.55$/;"	v
+R	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^R = 0.55$/;"	v
+R	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^R = 0.55$/;"	v
+R	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^R = 0.55$/;"	v
+R	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^R = 0.05$/;"	v
+SIG	Codes/Pressure_driven/Barrier/FD_Limited.py	/^SIG = 100$/;"	v
+SIG	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^SIG = 100$/;"	v
+SIG	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^SIG = 1000$/;"	v
+SIG	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^SIG = 100$/;"	v
+SIG	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^SIG = 100$/;"	v
+SIG	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^SIG = 100$/;"	v
+SIG	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^SIG = 10$/;"	v
+SIG	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^SIG = 10$/;"	v
+SIG	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^SIG = 10$/;"	v
+SIG	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^SIG = 10$/;"	v
+SIG	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^SIG = 10$/;"	v
+SIG	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^SIG = 0.000001$/;"	v
+SIG	Codes/Verification/Convergence/DG+FL+SL.py	/^SIG = 100$/;"	v
+SIG	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^SIG = 100$/;"	v
+SIG	Codes/Verification/Convergence/DG+FL.py	/^SIG = 100$/;"	v
+SIG	Codes/Verification/Convergence/DG+SL.py	/^SIG = 100$/;"	v
+SIG	Codes/Verification/Convergence/DG.py	/^SIG = 100$/;"	v
+SIG	Codes/Verification/Convergence/DG_avg.py	/^SIG = 100$/;"	v
+SL_end	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    SL_end = tm.time()$/;"	v
+SL_end	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    SL_end = tm.time()$/;"	v
+SL_end	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    SL_end = tm.time()$/;"	v
+SL_end	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    SL_end = tm.time()$/;"	v
+SL_end	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    SL_end = tm.time()$/;"	v
+SL_end	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    SL_end = tm.time()$/;"	v
+SL_start	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    SL_start = tm.time()$/;"	v
+SL_start	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    SL_start = tm.time()$/;"	v
+SL_start	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    SL_start = tm.time()$/;"	v
+SL_start	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    SL_start = tm.time()$/;"	v
+SL_start	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    SL_start = tm.time()$/;"	v
+S_L	Codes/Pressure_driven/Barrier/FD_Limited.py	/^S_L = Constant(0.85)$/;"	v
+S_L	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^S_L = Constant(0.85)$/;"	v
+S_L	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^S_L = Constant(0.85)$/;"	v
+S_L	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^S_L = Constant(0.85)$/;"	v
+S_L	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^S_L = Constant(0.85)$/;"	v
+S_L	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^S_L = Constant(0.85)$/;"	v
+SignFlip	Codes/Pressure_driven/Barrier/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Pressure_driven/Gravity/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Pressure_driven/Homogen/Compare/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Pressure_driven/Nonhomogen/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Quarter_five_spot/Gravity/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Quarter_five_spot/Homogen/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Quarter_five_spot/SPE10/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Verification/1D_Buckley_Leverett/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Verification/2D_BUckley_Leverett/Limiter/hsign.py	/^class SignFlip:$/;"	c
+SignFlip	Codes/Verification/Convergence/Limiter/hsign.py	/^class SignFlip:$/;"	c
+Slope_limiter	Codes/Pressure_driven/Barrier/FD_Limited.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Verification/Convergence/DG+FL+SL.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Verification/Convergence/DG+SL.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Verification/Convergence/DG.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+Slope_limiter	Codes/Verification/Convergence/DG_avg.py	/^Slope_limiter = VertexBasedLimiter(sSpace)$/;"	v
+T	Codes/Pressure_driven/Barrier/FD_Limited.py	/^T = 450 * 10$/;"	v
+T	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^T = 450 * 10$/;"	v
+T	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^T = 1000 * 450\/750$/;"	v
+T	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^T = 450$/;"	v
+T	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^T = 450$/;"	v
+T	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^T = 800$/;"	v
+T	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^T = 86400.*11 # final time(second) 2.5 day$/;"	v
+T	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^T = 20*24*3600            # final time$/;"	v
+T	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^T = 20*24*3600            # final time$/;"	v
+T	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^T = 20*24*3600            # final time$/;"	v
+T	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^T = 86400.*2.5           # final time(second) 2.5 day$/;"	v
+T	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^T = 86400*1400.$/;"	v
+T	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^T = 0.5$/;"	v
+T	Codes/Verification/Convergence/DG+FL+SL.py	/^T = 1$/;"	v
+T	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^T = 1$/;"	v
+T	Codes/Verification/Convergence/DG+FL.py	/^T = 1$/;"	v
+T	Codes/Verification/Convergence/DG+SL.py	/^T = 1$/;"	v
+T	Codes/Verification/Convergence/DG.py	/^T = 1$/;"	v
+T	Codes/Verification/Convergence/DG_avg.py	/^T = 1$/;"	v
+VertexLim	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^VertexLim = "Kuzmin"$/;"	v
+VertexLim	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^VertexLim = "Kuzmin"$/;"	v
+VertexLim	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^VertexLim = "Kuzmin"$/;"	v
+VertexLim	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^VertexLim = "Kuzmin"$/;"	v
+VertexLim	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^VertexLim = "Kuzmin"$/;"	v
+Vt	Codes/Pressure_driven/Barrier/FD_Limited.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Verification/Convergence/DG+FL+SL.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Verification/Convergence/DG+FL.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Verification/Convergence/DG+SL.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Verification/Convergence/DG.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+Vt	Codes/Verification/Convergence/DG_avg.py	/^Vt = FunctionSpace(mesh, "HDiv Trace", 0)$/;"	v
+__init__	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^    def __init__(self,mesh,sol_0,sol,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Pressure_driven/Barrier/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^    def __init__(self,mesh,sol_0,sol,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Pressure_driven/Gravity/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^    def __init__(self,mesh,sol_0,sol,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Pressure_driven/Homogen/Compare/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^    def __init__(self,mesh,sol_0,sol,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^    def __init__(self,mesh,sol_0,sol,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Pressure_driven/Nonhomogen/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^    def __init__(self,mesh,sol_0,sol,wells_avg,q_I,q_P,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Quarter_five_spot/Gravity/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^    def __init__(self,mesh,sol_0,sol,wells_avg,q_I,q_P,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Quarter_five_spot/Homogen/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^    def __init__(self,mesh,sol_0,sol,wells_avg,q_I,q_P,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Quarter_five_spot/SPE10/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^    def __init__(self,mesh,sol_0,sol,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Verification/1D_Buckley_Leverett/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^    def __init__(self,mesh,sol_0,sol,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Verification/2D_BUckley_Leverett/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+__init__	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^    def __init__(self,mesh,fluxes):$/;"	m	class:get_flux
+__init__	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^    def __init__(self,mesh,sol_0,sol,wells_avg,q_I,q_P,fluxes,solMax,solMin,dt):$/;"	m	class:flux_limiter
+__init__	Codes/Verification/Convergence/Limiter/hsign.py	/^    def __init__(self,mesh):$/;"	m	class:SignFlip
+a_flux	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^a_flux = dot(jump(phi),  dot(avg(F_w(D)) ,n('+')) + 0.5 * abs(dot(dFds(D0)('+'),n('+')) ) *jump(D) )*dS  #best choice [standard upwind]$/;"	v
+a_init	Codes/Pressure_driven/Barrier/FD_Limited.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Verification/Convergence/DG+FL+SL.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Verification/Convergence/DG+FL.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Verification/Convergence/DG+SL.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Verification/Convergence/DG.py	/^a_init = a_p0 + a_s0$/;"	v
+a_init	Codes/Verification/Convergence/DG_avg.py	/^a_init = a_p0 + a_s0$/;"	v
+a_int	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^a_int = dot(grad(phi), -1 * F_w(D) ) * dx$/;"	v
+a_mass	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^a_mass = 0.2 * phi * D * dx$/;"	v
+a_p0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Verification/Convergence/DG+FL+SL.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Verification/Convergence/DG+FL.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Verification/Convergence/DG+SL.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Verification/Convergence/DG.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p0	Codes/Verification/Convergence/DG_avg.py	/^a_p0 = p_0*z*dx$/;"	v
+a_p1	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    epsilon * inner(lmbda_l(s) * (grad(z)) , n ) * Pc(S_L,S_L) * ds(1) $/;"	v
+a_p1	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    epsilon * inner(lmbda_l(s) * (grad(z)) , n ) * Pc(S_L,S_L) * ds(1) $/;"	v
+a_p1	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    epsilon * inner(lmbda_l(s) * (grad(z)) , n ) * Pc(S_L,S_L) * ds(1) $/;"	v
+a_p1	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    epsilon * inner(lmbda_l(s) * (grad(z)) , n ) * Pc(S_L,S_L) * ds(1) $/;"	v
+a_p1	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    epsilon * inner(lmbda_l(s) * (grad(z)) , n ) * Pc(S_L,S_L) * ds(1) $/;"	v
+a_p1	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    epsilon * inner(lmbda_l(s) * (grad(z)) , n ) * Pc(S_L,S_L) * ds(1) $/;"	v
+a_p1	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS $/;"	v
+a_p1	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS $/;"	v
+a_p1	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS $/;"	v
+a_p1	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS $/;"	v
+a_p1	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS $/;"	v
+a_p2	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    sigma_bnd\/h * p * z * ds(2)$/;"	v
+a_p2	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    sigma_bnd\/h * p * z * ds(2)$/;"	v
+a_p2	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    sigma_bnd\/h * p * z * ds(2)$/;"	v
+a_p2	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    sigma_bnd\/h * p * z * ds(2)$/;"	v
+a_p2	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    sigma_bnd\/h * p * z * ds(2)$/;"	v
+a_p2	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    sigma_bnd\/h * p * z * ds(2)$/;"	v
+a_p2	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS$/;"	v
+a_p2	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS$/;"	v
+a_p2	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS$/;"	v
+a_p2	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS$/;"	v
+a_p2	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    sigma\/h_avg * jump(p) * jump(z)  * dS$/;"	v
+a_s	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    sigma_bnd\/h * s * v * ds(1) $/;"	v
+a_s	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    sigma_bnd\/h * s * v * ds(1) $/;"	v
+a_s	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    sigma_bnd\/h * s * v * ds(1) $/;"	v
+a_s	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    sigma_bnd\/h * s * v * ds(1) $/;"	v
+a_s	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    sigma_bnd\/h * s * v * ds(1) $/;"	v
+a_s	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    sigma_bnd\/h * s * v * ds(1) $/;"	v
+a_s	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    sigma\/h_avg * jump(s) * jump(v)  * dS $/;"	v
+a_s	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    sigma\/h_avg * jump(s) * jump(v)  * dS $/;"	v
+a_s	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    sigma\/h_avg * jump(s) * jump(v)  * dS $/;"	v
+a_s	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    sigma\/h_avg * jump(s) * jump(v)  * dS $/;"	v
+a_s	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    sigma\/h_avg * jump(s) * jump(v)  * dS $/;"	v
+a_s0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Verification/Convergence/DG+FL+SL.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Verification/Convergence/DG+FL.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Verification/Convergence/DG+SL.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Verification/Convergence/DG.py	/^a_s0 = s_0*v*dx$/;"	v
+a_s0	Codes/Verification/Convergence/DG_avg.py	/^a_s0 = s_0*v*dx$/;"	v
+apply	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^    def apply(self):$/;"	m	class:get_flux
+apply	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^    def apply(self):$/;"	m	class:flux_limiter
+apply	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^    def apply(self):$/;"	m	class:get_flux
+area	Codes/Pressure_driven/Barrier/FD_Limited.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Verification/Convergence/DG+FL+SL.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Verification/Convergence/DG+FL.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Verification/Convergence/DG+SL.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Verification/Convergence/DG.py	/^area = FacetArea(mesh)$/;"	v
+area	Codes/Verification/Convergence/DG_avg.py	/^area = FacetArea(mesh)$/;"	v
+area_cell	Codes/Pressure_driven/Barrier/FD_Limited.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Verification/Convergence/DG+FL+SL.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Verification/Convergence/DG+FL.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Verification/Convergence/DG+SL.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Verification/Convergence/DG.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+area_cell	Codes/Verification/Convergence/DG_avg.py	/^area_cell = Function(kSpace).interpolate(CellVolume(mesh)).vector().array()$/;"	v
+b	Codes/Pressure_driven/Barrier/FD_Limited.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Verification/Convergence/DG+FL+SL.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Verification/Convergence/DG+FL.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Verification/Convergence/DG+SL.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Verification/Convergence/DG.py	/^b = assemble(L_init)$/;"	v
+b	Codes/Verification/Convergence/DG_avg.py	/^b = assemble(L_init)$/;"	v
+bc	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^bc = DirichletBC(v, Constant(0.), "on_boundary" ,method="geometric")$/;"	v
+bcs	Codes/Pressure_driven/Barrier/FD_Limited.py	/^bcs = []$/;"	v
+bcs	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^bcs = []$/;"	v
+bcs	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^bcs = []$/;"	v
+bcs	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^bcs = []$/;"	v
+bcs	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^bcs = []$/;"	v
+bcs	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^bcs = []$/;"	v
+bcs	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^bcs = []$/;"	v
+bcs	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^bcs = []$/;"	v
+bcs	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^bcs = []$/;"	v
+bcs	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^bcs = []$/;"	v
+bcs	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^bcs = []$/;"	v
+bcs	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^bcs = []$/;"	v
+bcs	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^bcs = [bc]$/;"	v
+bcs	Codes/Verification/Convergence/DG+FL+SL.py	/^bcs = []$/;"	v
+bcs	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^bcs = []$/;"	v
+bcs	Codes/Verification/Convergence/DG+FL.py	/^bcs = []$/;"	v
+bcs	Codes/Verification/Convergence/DG+SL.py	/^bcs = []$/;"	v
+bcs	Codes/Verification/Convergence/DG.py	/^bcs = []$/;"	v
+bcs	Codes/Verification/Convergence/DG_avg.py	/^bcs = []$/;"	v
+cell_map	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^cell_map = sSpace.cell_node_map().values$/;"	v
+cell_map	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^cell_map = sSpace.cell_node_map().values$/;"	v
+cell_map	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^cell_map = v.cell_node_map().values$/;"	v
+col	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^            col = 2$/;"	v
+collections	Codes/Pressure_driven/Barrier/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Pressure_driven/Gravity/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Pressure_driven/Homogen/Compare/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Pressure_driven/Nonhomogen/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Quarter_five_spot/Gravity/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Quarter_five_spot/Homogen/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Quarter_five_spot/SPE10/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Verification/1D_Buckley_Leverett/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Verification/2D_BUckley_Leverett/Limiter/hsign.py	/^import collections$/;"	i
+collections	Codes/Verification/Convergence/Limiter/hsign.py	/^import collections$/;"	i
+counter	Codes/Pressure_driven/Barrier/FD_Limited.py	/^counter = 1$/;"	v
+counter	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^counter = 1$/;"	v
+counter	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^counter = 1$/;"	v
+counter	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^counter = 1$/;"	v
+counter	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^counter = 1$/;"	v
+counter	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^counter = 1$/;"	v
+counter	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^counter = 1$/;"	v
+counter	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^counter = 1$/;"	v
+counter	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^counter = 1$/;"	v
+counter	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^counter = 1$/;"	v
+counter	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^counter = 1$/;"	v
+counter	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^counter = 0$/;"	v
+counter	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^counter = 0$/;"	v
+counter	Codes/Verification/Convergence/DG+FL+SL.py	/^counter = 1$/;"	v
+counter	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^counter = 1$/;"	v
+counter	Codes/Verification/Convergence/DG+FL.py	/^counter = 1$/;"	v
+counter	Codes/Verification/Convergence/DG+SL.py	/^counter = 1$/;"	v
+counter	Codes/Verification/Convergence/DG.py	/^counter = 1$/;"	v
+counter	Codes/Verification/Convergence/DG_avg.py	/^counter = 1$/;"	v
+dD	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^dD = TrialFunction(v)$/;"	v
+dD	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^dD = TrialFunction(v)$/;"	v
+dFds	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^def dFds(D):$/;"	f
+dFds	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^def dFds(D):$/;"	f
+dofs_coords	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^def dofs_coords(x0,y0):$/;"	f
+domain_length	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^domain_length = 1000.$/;"	v
+dt	Codes/Pressure_driven/Barrier/FD_Limited.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^dt = T \/ iterations$/;"	v
+dt	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^dt = T \/ iterations$/;"	v
+dt	Codes/Verification/Convergence/DG+FL+SL.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Verification/Convergence/DG+FL.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Verification/Convergence/DG+SL.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Verification/Convergence/DG.py	/^dt = T \/ num_steps # time step size$/;"	v
+dt	Codes/Verification/Convergence/DG_avg.py	/^dt = T \/ num_steps # time step size$/;"	v
+dtc	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^dtc = Constant(dt)$/;"	v
+dtc	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^dtc = Constant(dt)$/;"	v
+dtc	Codes/Verification/Convergence/DG+FL+SL.py	/^dtc = Constant(dt)$/;"	v
+dtc	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^dtc = Constant(dt)$/;"	v
+dtc	Codes/Verification/Convergence/DG+FL.py	/^dtc = Constant(dt)$/;"	v
+dtc	Codes/Verification/Convergence/DG+SL.py	/^dtc = Constant(dt)$/;"	v
+dtc	Codes/Verification/Convergence/DG.py	/^dtc = Constant(dt)$/;"	v
+dtc	Codes/Verification/Convergence/DG_avg.py	/^dtc = Constant(dt)$/;"	v
+du	Codes/Pressure_driven/Barrier/FD_Limited.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Verification/Convergence/DG+FL+SL.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Verification/Convergence/DG+FL.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Verification/Convergence/DG+SL.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Verification/Convergence/DG.py	/^du = TrialFunction(wSpace)$/;"	v
+du	Codes/Verification/Convergence/DG_avg.py	/^du = TrialFunction(wSpace)$/;"	v
+edge_nx	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^edge_nx = 80$/;"	v
+epsilon	Codes/Pressure_driven/Barrier/FD_Limited.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Verification/Convergence/DG+FL+SL.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Verification/Convergence/DG+FL.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Verification/Convergence/DG+SL.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Verification/Convergence/DG.py	/^epsilon = Constant(1)$/;"	v
+epsilon	Codes/Verification/Convergence/DG_avg.py	/^epsilon = Constant(1)$/;"	v
+error	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    error = Function(kSpace).interpolate(u_error)$/;"	v
+error	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^error = Function(kSpace).interpolate(Constant(0.0))$/;"	v
+error	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    error = Function(kSpace).interpolate(u_error)$/;"	v
+error	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^error = Function(kSpace).interpolate(Constant(0.0))$/;"	v
+error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    error = Function(kSpace).interpolate(u_error)$/;"	v
+error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^error = Function(kSpace).interpolate(Constant(0.0))$/;"	v
+error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    error = Function(kSpace).interpolate(u_error)$/;"	v
+error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^error = Function(kSpace).interpolate(Constant(0.0))$/;"	v
+error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    error = Function(kSpace).interpolate(u_error)$/;"	v
+error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^error = Function(kSpace).interpolate(Constant(0.0))$/;"	v
+error	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    error = Function(kSpace).interpolate(u_error)$/;"	v
+error	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^error = Function(kSpace).interpolate(Constant(0.0))$/;"	v
+error_val	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^            dt\/area_cell * FLUX.sum(axis=1)$/;"	v
+error_val	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^            (1.\/(0.2)) * (dt\/area_cell) * FLUX.sum(axis=1)) -(1.\/(0.2)) * dt * wells_avg.vector().array()$/;"	v
+error_val	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^            (1.\/(0.2)) * (dt\/area_cell) * FLUX.sum(axis=1)) -(1.\/(0.2)) * dt * wells_avg.vector().array()$/;"	v
+error_val	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^            (1.\/(0.2)) * (dt\/area_cell) * FLUX.sum(axis=1)) -(1.\/(0.2)) * dt * wells_avg.vector().array()$/;"	v
+error_val	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^            (1.\/(0.2)) * (dt\/area_cell) * FLUX.sum(axis=1)) -(1.\/(0.2)) * dt * wells_avg.vector().array()$/;"	v
+error_val	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^            (1.\/(0.2)) * (dt\/area_cell) * FLUX.sum(axis=1)) -(1.\/(0.2)) * dt * wells_avg.vector().array()$/;"	v
+eval	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    def eval(self, value, x):$/;"	m	class:MyExpression
+f_o	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^def f_o(s):$/;"	f
+f_o	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^def f_o(s):$/;"	f
+f_o	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^def f_o(s):$/;"	f
+f_o	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^def f_o(s):$/;"	f
+f_o	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^def f_o(s):$/;"	f
+f_w	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^def f_w(s):$/;"	f
+f_w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^def f_w(s):$/;"	f
+f_w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^def f_w(s):$/;"	f
+f_w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^def f_w(s):$/;"	f
+f_w	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^def f_w(s):$/;"	f
+f_w	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^def f_w(D):$/;"	f
+fd_mesh	Codes/Pressure_driven/Barrier/FD_Limited.py	/^import firedrake.mesh as fd_mesh$/;"	i
+fd_mesh	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^import firedrake.mesh as fd_mesh$/;"	i
+file_error	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^file_error = File(".\/Output\/Delta400err+FL+SL.pvd")$/;"	v
+file_error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^file_error = File(".\/Output\/err+SL.pvd")$/;"	v
+file_error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^file_error = File(".\/Output\/err+FL+SL.pvd")$/;"	v
+file_error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^file_error = File(".\/Output\/err.pvd")$/;"	v
+file_error	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^file_error = File(".\/Output\/err+FL+SL.pvd")$/;"	v
+file_p	Codes/Pressure_driven/Barrier/FD_Limited.py	/^file_p = File(".\/Output\/UnstructuredT3\/Upwind+SL+FL\/pres.pvd")$/;"	v
+file_p	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^file_p = File(".\/Output\/UnstructuredT3\/Upwind\/pres.pvd")$/;"	v
+file_p	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^file_p = File(".\/Output\/Delta400_FL+SL_pres.pvd")$/;"	v
+file_p	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^file_p = File(".\/Output\/patch_test\/non_uniform_T3\/NIPG+SL+FL\/pres.pvd")$/;"	v
+file_p	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^file_p = File(".\/Output\/Delta400pres+FL+SL.pvd")$/;"	v
+file_p	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^file_p = File(".\/Output\/pres+SL.pvd")$/;"	v
+file_p	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^file_p = File(".\/Output\/pres+FL+SL.pvd")$/;"	v
+file_p	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^file_p = File(".\/Output\/pres.pvd")$/;"	v
+file_p	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^file_p = File(".\/Output\/pres+FL+SL.pvd")$/;"	v
+file_s	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^file_s = File(".\/Output\/Delta400_FL+SL_sat.pvd")$/;"	v
+file_s	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^file_s = File(".\/Output\/patch_test\/non_uniform_T3\/NIPG+SL+FL\/sat.pvd")$/;"	v
+file_s	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^file_s = File(".\/Output\/Delta400sat+FL+SL.pvd")$/;"	v
+file_s	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^file_s = File(".\/Output\/sat+SL.pvd")$/;"	v
+file_s	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^file_s = File(".\/Output\/sat+FL+SL.pvd")$/;"	v
+file_s	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^file_s = File(".\/Output\/sat.pvd")$/;"	v
+file_s	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^file_s = File(".\/Output\/sat+FL+SL.pvd")$/;"	v
+file_s	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^file_s = File(".\/Output\/sat+FL+SL_Avg.pvd")$/;"	v
+file_s_FL_SL	Codes/Pressure_driven/Barrier/FD_Limited.py	/^file_s_FL_SL = File(".\/Output\/UnstructuredT3\/Upwind+SL+FL\/sat.pvd")$/;"	v
+file_s_FL_SL	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^file_s_FL_SL = File(".\/Output\/UnstructuredT3\/Upwind\/sat.pvd")$/;"	v
+file_s_ex	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^file_s_ex = File(".\/Output\/sat_ex_Avg.pvd")$/;"	v
+file_v	Codes/Pressure_driven/Barrier/FD_Limited.py	/^file_v = File(".\/Output\/vel\/vel+FL+SL.pvd")$/;"	v
+file_v	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^file_v = File(".\/Output\/vel\/vel.pvd")$/;"	v
+file_v	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^file_v = File(".\/Output\/Delta400_FL+SL_vel.pvd")$/;"	v
+file_v	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^file_v = File(".\/Output\/vel+FL+SL.pvd")$/;"	v
+file_v	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^file_v = File(".\/Output\/Delta400vel+FL+SL.pvd")$/;"	v
+file_v	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^file_v = File(".\/Output\/vel+SL.pvd")$/;"	v
+file_v	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^file_v = File(".\/Output\/vel+FL+SL.pvd")$/;"	v
+file_v	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^file_v = File(".\/Output\/vel.pvd")$/;"	v
+file_v	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^file_v = File(".\/Output\/vel+FL+SL.pvd")$/;"	v
+find_repeat	Codes/Pressure_driven/Barrier/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Pressure_driven/Gravity/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Pressure_driven/Homogen/Compare/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Pressure_driven/Nonhomogen/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Quarter_five_spot/Gravity/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Quarter_five_spot/Homogen/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Quarter_five_spot/SPE10/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Verification/1D_Buckley_Leverett/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Verification/2D_BUckley_Leverett/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+find_repeat	Codes/Verification/Convergence/Limiter/hsign.py	/^        def find_repeat(numbers):$/;"	f	function:SignFlip.HSIGN
+firedrake	Codes/Pressure_driven/Barrier/FD_Limited.py	/^import firedrake.mesh as fd_mesh$/;"	i
+firedrake	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^import firedrake.mesh as fd_mesh$/;"	i
+flux_limiter	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^class flux_limiter(SignFlip):$/;"	c
+flux_limiter	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^class flux_limiter(SignFlip):$/;"	c
+fluxes	Codes/Pressure_driven/Barrier/FD_Limited.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Verification/Convergence/DG+FL+SL.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Verification/Convergence/DG+FL.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Verification/Convergence/DG+SL.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Verification/Convergence/DG.py	/^fluxes = Function(Vt)$/;"	v
+fluxes	Codes/Verification/Convergence/DG_avg.py	/^fluxes = Function(Vt)$/;"	v
+formulation	Codes/Pressure_driven/Barrier/FD_Limited.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^formulation = 'Upwind'$/;"	v
+formulation	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^formulation = sys.argv[1]$/;"	v
+formulation	Codes/Verification/Convergence/DG+FL+SL.py	/^formulation = "Upwind"$/;"	v
+formulation	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^formulation = "Upwind"$/;"	v
+formulation	Codes/Verification/Convergence/DG+FL.py	/^formulation = "Upwind"$/;"	v
+formulation	Codes/Verification/Convergence/DG+SL.py	/^formulation = "Upwind"$/;"	v
+formulation	Codes/Verification/Convergence/DG.py	/^formulation = "Upwind"$/;"	v
+formulation	Codes/Verification/Convergence/DG_avg.py	/^formulation = "Upwind"$/;"	v
+g	Codes/Pressure_driven/Barrier/FD_Limited.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^g = Constant((0,+9.8))$/;"	v
+g	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^g = Constant((0,-9.8)) #working use negative$/;"	v
+g	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Verification/Convergence/DG+FL+SL.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Verification/Convergence/DG+FL.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Verification/Convergence/DG+SL.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Verification/Convergence/DG.py	/^g = Constant((0,0))$/;"	v
+g	Codes/Verification/Convergence/DG_avg.py	/^g = Constant((0,0))$/;"	v
+g_v	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    g_v = Constant((0,-9.8))$/;"	v
+get_flux	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^class get_flux(SignFlip):$/;"	c
+get_flux	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^class get_flux(SignFlip):$/;"	c
+h	Codes/Pressure_driven/Barrier/FD_Limited.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^h = Constant(Length\/float(nx))$/;"	v
+h	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^h = Constant(Length\/float(nx))$/;"	v
+h	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^h = Constant(Length\/float(nx))$/;"	v
+h	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^h = Constant(Length\/float(nx))$/;"	v
+h	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^h = Constant(Length\/float(nx))$/;"	v
+h	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^h = Constant(Length\/float(nx))$/;"	v
+h	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^h = Constant(Length\/float(nx))$/;"	v
+h	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^h = CellDiameter(mesh)$/;"	v
+h	Codes/Verification/Convergence/DG+FL+SL.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Verification/Convergence/DG+FL.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Verification/Convergence/DG+SL.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Verification/Convergence/DG.py	/^h = CellSize(mesh)$/;"	v
+h	Codes/Verification/Convergence/DG_avg.py	/^h = CellSize(mesh)$/;"	v
+h_avg	Codes/Pressure_driven/Barrier/FD_Limited.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^h_avg = Constant(Length\/float(nx))$/;"	v
+h_avg	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^h_avg = Constant(Length\/float(nx))$/;"	v
+h_avg	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^h_avg = Constant(Length\/float(nx))$/;"	v
+h_avg	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^h_avg = Constant(Length\/float(nx))$/;"	v
+h_avg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^h_avg = Constant(Length\/float(nx))$/;"	v
+h_avg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^h_avg = Constant(Length\/float(nx))$/;"	v
+h_avg	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^h_avg = Constant(Length\/float(nx))$/;"	v
+h_avg	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Verification/Convergence/DG+FL+SL.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Verification/Convergence/DG+FL.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Verification/Convergence/DG+SL.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Verification/Convergence/DG.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+h_avg	Codes/Verification/Convergence/DG_avg.py	/^h_avg = (h('+')+h('-'))\/2$/;"	v
+i	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^i= mesh.coordinates.dat.data[:,:]$/;"	v
+iterations	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^iterations = nx * 672\/200 * 0.75   # we compare results at 48;96;168 that corresponds to t=400 days, t=800 days and t=1400 days$/;"	v
+iterations	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^iterations =nx\/20 * 100$/;"	v
+kSpace	Codes/Pressure_driven/Barrier/FD_Limited.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Verification/Convergence/DG+FL+SL.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Verification/Convergence/DG+FL.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Verification/Convergence/DG+SL.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Verification/Convergence/DG.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+kSpace	Codes/Verification/Convergence/DG_avg.py	/^kSpace = FunctionSpace(mesh,"DG",0)$/;"	v
+k_subdomain	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^k_subdomain = conditional(And(And(x>40,x<60),And(y>40,y<60)),1e-12,1e-8)$/;"	v
+kk	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^        kk = (mesh.coordinates.dat.data[:,0][j])\/(Length\/nx)$/;"	v
+layer	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^layer = '13' # layer 13 and layer 73$/;"	v
+lmbda_l	Codes/Pressure_driven/Barrier/FD_Limited.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Verification/Convergence/DG+FL+SL.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Verification/Convergence/DG+FL.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Verification/Convergence/DG+SL.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Verification/Convergence/DG.py	/^def lmbda_l(s):$/;"	f
+lmbda_l	Codes/Verification/Convergence/DG_avg.py	/^def lmbda_l(s):$/;"	f
+lmbda_o	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^def lmbda_o(s):$/;"	f
+lmbda_o	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^def lmbda_o(s):$/;"	f
+lmbda_w	Codes/Pressure_driven/Barrier/FD_Limited.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Verification/Convergence/DG+FL+SL.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Verification/Convergence/DG+FL.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Verification/Convergence/DG+SL.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Verification/Convergence/DG.py	/^def lmbda_w(s):$/;"	f
+lmbda_w	Codes/Verification/Convergence/DG_avg.py	/^def lmbda_w(s):$/;"	f
+loadmat	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^from scipy.io import loadmat$/;"	i
+m	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^m = VectorFunctionSpace(mesh, "CG", 1)$/;"	v
+math	Codes/Pressure_driven/Barrier/FD_Limited.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^import math,sys$/;"	i
+math	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+math	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^import math,sys,time$/;"	i
+math	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^import math,sys$/;"	i
+math	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^import math,sys,time$/;"	i
+math	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^import math,sys,time$/;"	i
+math	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^import math,sys,time$/;"	i
+math	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^import math,sys$/;"	i
+math	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^import math,sys,time$/;"	i
+math	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^import math,sys$/;"	i
+math	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+math	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+math	Codes/Verification/Convergence/DG+FL+SL.py	/^import math,sys$/;"	i
+math	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^import math,sys$/;"	i
+math	Codes/Verification/Convergence/DG+FL.py	/^import math,sys$/;"	i
+math	Codes/Verification/Convergence/DG+SL.py	/^import math,sys$/;"	i
+math	Codes/Verification/Convergence/DG.py	/^import math,sys$/;"	i
+math	Codes/Verification/Convergence/DG_avg.py	/^import math,sys$/;"	i
+math	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^import math,sys$/;"	i
+matplotlib	Codes/Pressure_driven/Barrier/FD_Limited.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^import matplotlib.pyplot as plt$/;"	i
+matplotlib	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^import matplotlib.pyplot as plt$/;"	i
+mesh	Codes/Pressure_driven/Barrier/FD_Limited.py	/^mesh = Mesh('mesh\/crack_3.msh')$/;"	v
+mesh	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^mesh = Mesh('mesh\/crack_3.msh')$/;"	v
+mesh	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^mesh = RectangleMesh(nx, ny ,Length,Hight,diagonal = 'crossed')$/;"	v
+mesh	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^mesh = RectangleMesh(nx, nx ,Length,Length,diagonal='crossed')$/;"	v
+mesh	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^mesh = RectangleMesh(nx, 1 ,Length,1,quadrilateral = True)$/;"	v
+mesh	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^mesh = RectangleMesh(nx, nx ,Length,Length,quadrilateral = True)$/;"	v
+mesh	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^mesh = RectangleMesh(nx, nx ,Length,Length,diagonal='crossed')$/;"	v
+mesh	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^mesh = RectangleMesh(nx, nx ,Length,Length,diagonal='crossed')$/;"	v
+mesh	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^mesh = RectangleMesh(nx, nx ,Length,Length,diagonal='crossed')$/;"	v
+mesh	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^mesh = RectangleMesh(nx, nx ,Length,Length,diagonal='crossed')$/;"	v
+mesh	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^mesh = RectangleMesh(nx, nx ,domain_length,domain_length,diagonal='crossed')$/;"	v
+mesh	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^mesh = RectangleMesh(nx, 1 ,Length,1,quadrilateral = True)$/;"	v
+mesh	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^mesh = SquareMesh(nx, nx, 3)$/;"	v
+mesh	Codes/Verification/Convergence/DG+FL+SL.py	/^mesh = UnitSquareMesh(nx,nx, diagonal="right")$/;"	v
+mesh	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^mesh = UnitSquareMesh(nx,nx, diagonal="right")$/;"	v
+mesh	Codes/Verification/Convergence/DG+FL.py	/^mesh = UnitSquareMesh(nx,nx, diagonal="right")$/;"	v
+mesh	Codes/Verification/Convergence/DG+SL.py	/^mesh = UnitSquareMesh(nx,nx, diagonal="right")$/;"	v
+mesh	Codes/Verification/Convergence/DG.py	/^mesh = UnitSquareMesh(nx,nx, diagonal="right")$/;"	v
+mesh	Codes/Verification/Convergence/DG_avg.py	/^mesh = UnitSquareMesh(nx,nx, diagonal="right")$/;"	v
+mesh_cell_map	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^mesh_cell_map = mesh.coordinates.cell_node_map().values$/;"	v
+mesh_cell_map	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^mesh_cell_map = mesh.coordinates.cell_node_map().values$/;"	v
+mesh_cell_map	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^mesh_cell_map = mesh.coordinates.cell_node_map().values$/;"	v
+mesh_val	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^mesh_val = mesh.coordinates.vector().array()$/;"	v
+mesh_val	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^mesh_val = mesh.coordinates.vector().array()$/;"	v
+mesh_val	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^mesh_val = mesh.coordinates.vector().array()$/;"	v
+mesh_y	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    mesh_y = mesh.coordinates.dat.data[:,0][j]$/;"	v
+mu_l	Codes/Pressure_driven/Barrier/FD_Limited.py	/^mu_l = Constant(1e-2)$/;"	v
+mu_l	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^mu_l = Constant(1e-2)$/;"	v
+mu_l	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^mu_l = Constant(5e-3)$/;"	v
+mu_l	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^mu_l = Constant(1e-2)$/;"	v
+mu_l	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^mu_l = Constant(1e-2)$/;"	v
+mu_l	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^mu_l = Constant(1e-2)$/;"	v
+mu_l	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^mu_l = Constant(2e-3)$/;"	v
+mu_l	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^mu_l = Constant(1e-2)$/;"	v
+mu_l	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^mu_l = Constant(1e-2)$/;"	v
+mu_l	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^mu_l = Constant(1e-2)$/;"	v
+mu_l	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^mu_l = Constant(2e-3)$/;"	v
+mu_l	Codes/Verification/Convergence/DG+FL+SL.py	/^mu_l = Constant(1)$/;"	v
+mu_l	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^mu_l = Constant(1)$/;"	v
+mu_l	Codes/Verification/Convergence/DG+FL.py	/^mu_l = Constant(1)$/;"	v
+mu_l	Codes/Verification/Convergence/DG+SL.py	/^mu_l = Constant(1)$/;"	v
+mu_l	Codes/Verification/Convergence/DG.py	/^mu_l = Constant(1)$/;"	v
+mu_l	Codes/Verification/Convergence/DG_avg.py	/^mu_l = Constant(1)$/;"	v
+mu_o	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^mu_o = 1$/;"	v
+mu_o	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^mu_o = 1$/;"	v
+mu_w	Codes/Pressure_driven/Barrier/FD_Limited.py	/^mu_w = Constant(1e-3)$/;"	v
+mu_w	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^mu_w = Constant(1e-3)$/;"	v
+mu_w	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^mu_w = Constant(2.5e-4)$/;"	v
+mu_w	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^mu_w = Constant(1e-3)$/;"	v
+mu_w	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^mu_w = Constant(1e-3)$/;"	v
+mu_w	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^mu_w = Constant(1e-3)$/;"	v
+mu_w	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^mu_w = Constant(5e-4)$/;"	v
+mu_w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^mu_w = Constant(1e-3)$/;"	v
+mu_w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^mu_w = Constant(1e-3)$/;"	v
+mu_w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^mu_w = Constant(1e-3)$/;"	v
+mu_w	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^mu_w = Constant(5e-4)$/;"	v
+mu_w	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^mu_w = 1$/;"	v
+mu_w	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^mu_w = 1$/;"	v
+mu_w	Codes/Verification/Convergence/DG+FL+SL.py	/^mu_w = Constant(1)$/;"	v
+mu_w	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^mu_w = Constant(1)$/;"	v
+mu_w	Codes/Verification/Convergence/DG+FL.py	/^mu_w = Constant(1)$/;"	v
+mu_w	Codes/Verification/Convergence/DG+SL.py	/^mu_w = Constant(1)$/;"	v
+mu_w	Codes/Verification/Convergence/DG.py	/^mu_w = Constant(1)$/;"	v
+mu_w	Codes/Verification/Convergence/DG_avg.py	/^mu_w = Constant(1)$/;"	v
+n	Codes/Pressure_driven/Barrier/FD_Limited.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Verification/Convergence/DG+FL+SL.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Verification/Convergence/DG+FL.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Verification/Convergence/DG+SL.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Verification/Convergence/DG.py	/^n = FacetNormal(mesh)$/;"	v
+n	Codes/Verification/Convergence/DG_avg.py	/^n = FacetNormal(mesh)$/;"	v
+new_dL	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^new_dL = (Length - Length\/edge_nx)\/(nx-1)$/;"	v
+np	Codes/Pressure_driven/Barrier/FD_Limited.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Homogen/Compare/Limiter/hsign.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/hsign.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^import numpy as np$/;"	i
+np	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^import numpy as np$/;"	i
+np	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^import numpy as np$/;"	i
+np	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^import numpy as np$/;"	i
+np	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^import numpy as np$/;"	i
+np	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^import numpy as np$/;"	i
+np	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^import numpy as np$/;"	i
+np	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^import numpy as np$/;"	i
+np	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^import numpy as np$/;"	i
+np	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^import numpy as np$/;"	i
+np	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^import numpy as np$/;"	i
+np	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^import numpy as np$/;"	i
+np	Codes/Verification/1D_Buckley_Leverett/Limiter/hsign.py	/^import numpy as np$/;"	i
+np	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^import numpy as np$/;"	i
+np	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^import numpy as np$/;"	i
+np	Codes/Verification/2D_BUckley_Leverett/Limiter/hsign.py	/^import numpy as np$/;"	i
+np	Codes/Verification/Convergence/DG+FL+SL.py	/^import numpy as np$/;"	i
+np	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^import numpy as np$/;"	i
+np	Codes/Verification/Convergence/DG+FL.py	/^import numpy as np$/;"	i
+np	Codes/Verification/Convergence/DG+SL.py	/^import numpy as np$/;"	i
+np	Codes/Verification/Convergence/DG.py	/^import numpy as np$/;"	i
+np	Codes/Verification/Convergence/DG_avg.py	/^import numpy as np$/;"	i
+np	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^import numpy as np$/;"	i
+num_steps	Codes/Pressure_driven/Barrier/FD_Limited.py	/^num_steps = 450*10*save_itr$/;"	v
+num_steps	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^num_steps = 450 * 10 * save_itr$/;"	v
+num_steps	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^num_steps =  1000$/;"	v
+num_steps	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^num_steps = 450*save_itr    $/;"	v
+num_steps	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^num_steps = 450*save_itr$/;"	v
+num_steps	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^num_steps = T*save_itr$/;"	v
+num_steps	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^num_steps = 750     # number of time steps$/;"	v
+num_steps	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^num_steps = 350    # number of time steps$/;"	v
+num_steps	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^num_steps = 350    # number of time steps$/;"	v
+num_steps	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^num_steps = 350    # number of time steps$/;"	v
+num_steps	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^num_steps = 600     # number of time steps$/;"	v
+num_steps	Codes/Verification/Convergence/DG+FL+SL.py	/^num_steps = (nx)**2$/;"	v
+num_steps	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^num_steps = (nx)**2$/;"	v
+num_steps	Codes/Verification/Convergence/DG+FL.py	/^num_steps = (nx)**2$/;"	v
+num_steps	Codes/Verification/Convergence/DG+SL.py	/^num_steps = (nx)**2$/;"	v
+num_steps	Codes/Verification/Convergence/DG.py	/^num_steps = (nx)**2$/;"	v
+num_steps	Codes/Verification/Convergence/DG_avg.py	/^num_steps = (nx)**2$/;"	v
+nx	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^nx = 60$/;"	v
+nx	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^nx = int(sys.argv[1])$/;"	v
+nx	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^nx = 16$/;"	v
+nx	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^nx = 80 # use nx values such that Length\/nx is integer$/;"	v
+nx	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^nx = 50$/;"	v
+nx	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^nx = 40$/;"	v
+nx	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^nx = 40$/;"	v
+nx	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^nx = 40$/;"	v
+nx	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^nx = 50$/;"	v
+nx	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^nx = 25  # test cases are: (nx, save_itr) = (400,8) (200,4) (100,2) (50,1) (25,1\/2)$/;"	v
+nx	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^nx = 100  # three cases (nx, save_itr) = (20,1) (40,2) (80,4)$/;"	v
+nx	Codes/Verification/Convergence/DG+FL+SL.py	/^nx = int(sys.argv[1])$/;"	v
+nx	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^nx = int(sys.argv[1])$/;"	v
+nx	Codes/Verification/Convergence/DG+FL.py	/^nx = int(sys.argv[1])$/;"	v
+nx	Codes/Verification/Convergence/DG+SL.py	/^nx = int(sys.argv[1])$/;"	v
+nx	Codes/Verification/Convergence/DG.py	/^nx = int(sys.argv[1])$/;"	v
+nx	Codes/Verification/Convergence/DG_avg.py	/^nx = int(sys.argv[1])$/;"	v
+ny	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^ny = 30$/;"	v
+outfile	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^outfile = File(".\/Output\/BL+FL+SL_2D_nx%d.pvd"%nx)$/;"	v
+outfile	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^outfile = File(".\/Output\/DG+FL+SL_nx%d.pvd"%nx)$/;"	v
+p0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Verification/Convergence/DG+FL+SL.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Verification/Convergence/DG+FL.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Verification/Convergence/DG+SL.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Verification/Convergence/DG.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+p0	Codes/Verification/Convergence/DG_avg.py	/^p0 = interpolate( p_an, pSpace)$/;"	v
+pSpace	Codes/Pressure_driven/Barrier/FD_Limited.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Verification/Convergence/DG+FL+SL.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Verification/Convergence/DG+FL.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Verification/Convergence/DG+SL.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Verification/Convergence/DG.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+pSpace	Codes/Verification/Convergence/DG_avg.py	/^pSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+p_an	Codes/Pressure_driven/Barrier/FD_Limited.py	/^p_an = Function(pSpace).interpolate(3e6*1-(2e6\/100*x[0]))$/;"	v
+p_an	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^p_an = Function(pSpace).interpolate(3e6*1-(2e6\/100*x[0]))$/;"	v
+p_an	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^p_an = Function(pSpace).interpolate(3e6*1-(2e6\/100*x[0]))$/;"	v
+p_an	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^p_an = Function(pSpace).interpolate(3e6*1-(2e6\/100*x[0]))$/;"	v
+p_an	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^p_an = Function(pSpace).interpolate(3e6*1-(2e6\/100*x[0]))$/;"	v
+p_an	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^p_an = Function(pSpace).interpolate(3e6*1-(2e6\/100*x[0]))$/;"	v
+p_an	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^p_an = Constant(0.)$/;"	v
+p_an	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^p_an = Function(pSpace).interpolate(3e6*1-(2e6\/100*x[0]))$/;"	v
+p_an	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^p_an = Function(pSpace).interpolate(3e6*1-(2e6\/100*x[0]))$/;"	v
+p_an	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^p_an = Function(pSpace).interpolate(3e6*1-(2e6\/100*x[0]))$/;"	v
+p_an	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^p_an = Constant(0.)$/;"	v
+p_an	Codes/Verification/Convergence/DG+FL+SL.py	/^           -1.\/6. * ( 2*cos(time) -2*cos(time+1) + 11 ))$/;"	v
+p_an	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^           -1.\/6. * ( 2*cos(time) -2*cos(time+1) + 11 ))$/;"	v
+p_an	Codes/Verification/Convergence/DG+FL.py	/^           -1.\/6. * ( 2*cos(time) -2*cos(time+1) + 11 ))$/;"	v
+p_an	Codes/Verification/Convergence/DG+SL.py	/^           -1.\/6. * ( 2*cos(time) -2*cos(time+1) + 11 ))$/;"	v
+p_an	Codes/Verification/Convergence/DG.py	/^           -1.\/6. * ( 2*cos(time) -2*cos(time+1) + 11 ))$/;"	v
+p_an	Codes/Verification/Convergence/DG_avg.py	/^           -1.\/6. * ( 2*cos(time) -2*cos(time+1) + 11 ))$/;"	v
+p_ex	Codes/Verification/Convergence/DG+FL+SL.py	/^p_ex = interpolate(p_an,pSpace)$/;"	v
+p_ex	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^p_ex = interpolate(p_an,pSpace)$/;"	v
+p_ex	Codes/Verification/Convergence/DG+FL.py	/^p_ex = interpolate(p_an,pSpace)$/;"	v
+p_ex	Codes/Verification/Convergence/DG+SL.py	/^p_ex = interpolate(p_an,pSpace)$/;"	v
+p_ex	Codes/Verification/Convergence/DG.py	/^p_ex = interpolate(p_an,pSpace)$/;"	v
+p_ex	Codes/Verification/Convergence/DG_avg.py	/^p_ex = interpolate(p_an,pSpace)$/;"	v
+params	Codes/Pressure_driven/Barrier/FD_Limited.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Verification/Convergence/DG+FL+SL.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Verification/Convergence/DG+FL.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Verification/Convergence/DG+SL.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Verification/Convergence/DG.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+params	Codes/Verification/Convergence/DG_avg.py	/^params = {'ksp_type': 'preonly', 'pc_type':'lu',"pc_factor_mat_solver_type": "mumps" }$/;"	v
+phi	Codes/Pressure_driven/Barrier/FD_Limited.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^def phi(p):$/;"	f
+phi	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^def phi(p):$/;"	f
+phi	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^def phi(p):$/;"	f
+phi	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^def phi(p):$/;"	f
+phi	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^def phi(p):$/;"	f
+phi	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^phi = TestFunction(v)$/;"	v
+phi	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^phi = TestFunction(v)$/;"	v
+phi	Codes/Verification/Convergence/DG+FL+SL.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Verification/Convergence/DG+FL.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Verification/Convergence/DG+SL.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Verification/Convergence/DG.py	/^phi = Constant(0.2)$/;"	v
+phi	Codes/Verification/Convergence/DG_avg.py	/^phi = Constant(0.2)$/;"	v
+phi_0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^phi_0 = Constant(0.2)$/;"	v
+phi_0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^phi_0 = Constant(0.2)$/;"	v
+phi_0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^phi_0 = Constant(0.2)$/;"	v
+phi_0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^phi_0 = Constant(0.2)$/;"	v
+phi_0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^phi_0 = Constant(0.2)$/;"	v
+plt	Codes/Pressure_driven/Barrier/FD_Limited.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^import matplotlib.pyplot as plt$/;"	i
+plt	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^from matplotlib import pyplot as plt$/;"	i
+plt	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^from matplotlib import pyplot as plt$/;"	i
+problem	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+problem	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    problem = NonlinearVariationalProblem(F,u,bcs,J)$/;"	v
+q_I	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^q_I = interpolate(conditional(And(And(x[0]< 120,x[0]>40),And(x[1]<120,x[1]>40)) , 0.28e-4\/3. , 0.0 ), kSpace)$/;"	v
+q_I	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^q_I = interpolate(conditional(And(And(x[0]< 10,x[0]>2.5),And(x[1]<10,x[1]>2.5)) , 0.0000125, 0.0 ), kSpace)$/;"	v
+q_I	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^q_I = interpolate(conditional(And(And(x[0]< 10,x[0]>2.5),And(x[1]<10,x[1]>2.5)) , 0.0000125, 0.0 ), kSpace)$/;"	v
+q_I	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^q_I = interpolate(conditional(And(And(x[0]< 10,x[0]>2.5),And(x[1]<10,x[1]>2.5)) , 0.0000125, 0.0 ), kSpace)$/;"	v
+q_I	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^q_I = interpolate(conditional(And(And(x[0]< 120,x[0]>20),And(x[1]<120,x[1]>20)) , 0.28e-4 , 0.0 ), kSpace)$/;"	v
+q_P	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^q_P = interpolate(conditional(And(And(x[0]< 960,x[0]>880),And(x[1]<960,x[1]>880)) , 0.28e-4\/3., 0.0 ), kSpace)$/;"	v
+q_P	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^q_P = interpolate(conditional(And(And(x[0]< 97.5,x[0]>90),And(x[1]<97.5,x[1]>90)) , 0.0000125, 0.0 ), kSpace)$/;"	v
+q_P	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^q_P = interpolate(conditional(And(And(x[0]< 97.5,x[0]>90),And(x[1]<97.5,x[1]>90)) , 0.0000125, 0.0 ), kSpace)$/;"	v
+q_P	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^q_P = interpolate(conditional(And(And(x[0]< 97.5,x[0]>90),And(x[1]<97.5,x[1]>90)) , 0.0000125, 0.0 ), kSpace)$/;"	v
+q_P	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^q_P = interpolate(conditional(And(And(x[0]< 980,x[0]>880),And(x[1]<980,x[1]>880)) , 0.28e-4 , 0.0 ), kSpace)$/;"	v
+q_l	Codes/Pressure_driven/Barrier/FD_Limited.py	/^q_l = Constant(0)$/;"	v
+q_l	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^q_l = Constant(0)$/;"	v
+q_l	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^q_l = Constant(0)$/;"	v
+q_l	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^q_l = Constant(0)$/;"	v
+q_l	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^q_l = Constant(0)$/;"	v
+q_l	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^q_l = Constant(0)$/;"	v
+q_w	Codes/Pressure_driven/Barrier/FD_Limited.py	/^q_w = Constant(0)$/;"	v
+q_w	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^q_w = Constant(0)$/;"	v
+q_w	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^q_w = Constant(0)$/;"	v
+q_w	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^q_w = Constant(0)$/;"	v
+q_w	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^q_w = Constant(0)$/;"	v
+q_w	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^q_w = Constant(0)$/;"	v
+rhol	Codes/Pressure_driven/Barrier/FD_Limited.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^def rhol(p):$/;"	f
+rhol	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^def rhol(p):$/;"	f
+rhol	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^def rhol(p):$/;"	f
+rhol	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^def rhol(p):$/;"	f
+rhol	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^def rhol(p):$/;"	f
+rhol	Codes/Verification/Convergence/DG+FL+SL.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Verification/Convergence/DG+FL.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Verification/Convergence/DG+SL.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Verification/Convergence/DG.py	/^rhol = Constant(1000)$/;"	v
+rhol	Codes/Verification/Convergence/DG_avg.py	/^rhol = Constant(1000)$/;"	v
+rhol_0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^rhol_0 = Constant(600)$/;"	v
+rhol_0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^rhol_0 = Constant(850)$/;"	v
+rhol_0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^rhol_0 = Constant(850)$/;"	v
+rhol_0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^rhol_0 = Constant(850)$/;"	v
+rhol_0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^rhol_0 = Constant(850)$/;"	v
+rhow	Codes/Pressure_driven/Barrier/FD_Limited.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^rhow = Constant(600)$/;"	v
+rhow	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^def rhow(p):$/;"	f
+rhow	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^def rhow(p):$/;"	f
+rhow	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^def rhow(p):$/;"	f
+rhow	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^def rhow(p):$/;"	f
+rhow	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^def rhow(p):$/;"	f
+rhow	Codes/Verification/Convergence/DG+FL+SL.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Verification/Convergence/DG+FL.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Verification/Convergence/DG+SL.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Verification/Convergence/DG.py	/^rhow = Constant(1000)$/;"	v
+rhow	Codes/Verification/Convergence/DG_avg.py	/^rhow = Constant(1000)$/;"	v
+rhow_0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^rhow_0 = Constant(1000) #tested and correct one$/;"	v
+rhow_0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^rhow_0 = Constant(1000)$/;"	v
+rhow_0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^rhow_0 = Constant(1000)$/;"	v
+rhow_0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^rhow_0 = Constant(1000)$/;"	v
+rhow_0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^rhow_0 = Constant(1000)$/;"	v
+rhow_v	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    rhow_v = 1000$/;"	v
+row	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^row = np.size(mesh_cell_map)$/;"	v
+row	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^row = np.size(mesh_cell_map)$/;"	v
+row	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^row = np.size(mesh_cell_map)$/;"	v
+s0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Verification/Convergence/DG+FL+SL.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Verification/Convergence/DG+FL.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Verification/Convergence/DG+SL.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Verification/Convergence/DG.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0	Codes/Verification/Convergence/DG_avg.py	/^s0 = interpolate( s_an, sSpace)$/;"	v
+s0_cell	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^            s0_cell = np.zeros((row,col))$/;"	v
+s0_val	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^            s0_val= s0.vector().array()$/;"	v
+sAvg	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Pressure_driven/Barrier/FD_Limited.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    sAvg = Function(kSpace).interpolate(sSol)$/;"	v
+sAvg	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^sAvg = Function(kSpace).interpolate(s0)$/;"	v
+sAvg0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^sAvg0 = sAvg$/;"	v
+sAvg0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^sAvg0 = sAvg$/;"	v
+sSpace	Codes/Pressure_driven/Barrier/FD_Limited.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Verification/Convergence/DG+FL+SL.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Verification/Convergence/DG+FL.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Verification/Convergence/DG+SL.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Verification/Convergence/DG.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+sSpace	Codes/Verification/Convergence/DG_avg.py	/^sSpace = FunctionSpace(mesh,"DG" , 1)$/;"	v
+s_an	Codes/Pressure_driven/Barrier/FD_Limited.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^s_an = Constant(0.2)$/;"	v
+s_an	Codes/Verification/Convergence/DG+FL+SL.py	/^s_an =  Function(sSpace).interpolate(0.2*(2.+2.*x[0]*x[1]+cos(time+x[0]))) $/;"	v
+s_an	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^s_an =  Function(sSpace).interpolate(0.2*(2.+2.*x[0]*x[1]+cos(time+x[0]))) $/;"	v
+s_an	Codes/Verification/Convergence/DG+FL.py	/^s_an =  Function(sSpace).interpolate(0.2*(2.+2.*x[0]*x[1]+cos(time+x[0]))) $/;"	v
+s_an	Codes/Verification/Convergence/DG+SL.py	/^s_an =  Function(sSpace).interpolate(0.2*(2.+2.*x[0]*x[1]+cos(time+x[0]))) $/;"	v
+s_an	Codes/Verification/Convergence/DG.py	/^s_an =  Function(sSpace).interpolate(0.2*(2.+2.*x[0]*x[1]+cos(time+x[0]))) $/;"	v
+s_an	Codes/Verification/Convergence/DG_avg.py	/^s_an =  Function(sSpace).interpolate(0.2*(2.+2.*x[0]*x[1]+cos(time+x[0]))) $/;"	v
+s_ex	Codes/Verification/Convergence/DG+FL+SL.py	/^s_ex = interpolate(s_an,sSpace)$/;"	v
+s_ex	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^s_ex = interpolate(s_an,sSpace)$/;"	v
+s_ex	Codes/Verification/Convergence/DG+FL.py	/^s_ex = interpolate(s_an,sSpace)$/;"	v
+s_ex	Codes/Verification/Convergence/DG+SL.py	/^s_ex = interpolate(s_an,sSpace)$/;"	v
+s_ex	Codes/Verification/Convergence/DG.py	/^s_ex = interpolate(s_an,sSpace)$/;"	v
+s_ex	Codes/Verification/Convergence/DG_avg.py	/^s_ex = interpolate(s_an,sSpace)$/;"	v
+s_ex_avg	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^s_ex_avg = Function(kSpace).interpolate(s_ex)$/;"	v
+s_ex_avg	Codes/Verification/Convergence/DG_avg.py	/^s_ex_avg = Function(kSpace).interpolate(s_ex)$/;"	v
+s_ro	Codes/Pressure_driven/Barrier/FD_Limited.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^s_ro = 0.15$/;"	v
+s_ro	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^s_ro = 0.$/;"	v
+s_rw	Codes/Pressure_driven/Barrier/FD_Limited.py	/^s_rw = 0.20$/;"	v
+s_rw	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^s_rw = 0.20$/;"	v
+s_rw	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^s_rw = 0.20$/;"	v
+s_rw	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^s_rw = 0.20$/;"	v
+s_rw	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^s_rw = 0.20$/;"	v
+s_rw	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^s_rw = 0.20$/;"	v
+s_rw	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^s_rw = 0.2$/;"	v
+s_rw	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^s_rw = 0.2$/;"	v
+s_rw	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^s_rw = 0.2$/;"	v
+s_rw	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^s_rw = 0.2$/;"	v
+s_rw	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^s_rw = 0.2$/;"	v
+s_rw	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^s_rw = 0.1$/;"	v
+s_rw	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^s_rw = 0.$/;"	v
+s_star	Codes/Pressure_driven/Barrier/FD_Limited.py	/^def s_star(s):$/;"	f
+s_star	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^def s_star(s):$/;"	f
+s_star	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^def s_star(s):$/;"	f
+s_star	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^def s_star(s):$/;"	f
+s_star	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^def s_star(s):$/;"	f
+s_star	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^def s_star(s):$/;"	f
+s_star	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^def s_star(s):$/;"	f
+s_star	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^def s_star(s):$/;"	f
+s_star	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^def s_star(s):$/;"	f
+s_star	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^def s_star(s):$/;"	f
+s_star	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^def s_star(s):$/;"	f
+s_star	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^def s_star(s):$/;"	f
+s_star	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^def s_star(s):$/;"	f
+save_itr	Codes/Pressure_driven/Barrier/FD_Limited.py	/^save_itr =2$/;"	v
+save_itr	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^save_itr =2$/;"	v
+save_itr	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^save_itr = 1$/;"	v
+save_itr	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^save_itr = 5    $/;"	v
+save_itr	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^save_itr = 5$/;"	v
+save_itr	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^save_itr = 2$/;"	v
+save_itr	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^save_itr = 0.5 * 0.75 # Save vtu every save_itr iterations$/;"	v
+save_itr	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^save_itr = 1$/;"	v
+sigma	Codes/Pressure_driven/Barrier/FD_Limited.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^sigma = Constant(0.1)$/;"	v
+sigma	Codes/Verification/Convergence/DG+FL+SL.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Verification/Convergence/DG+FL.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Verification/Convergence/DG+SL.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Verification/Convergence/DG.py	/^sigma = Constant(SIG)$/;"	v
+sigma	Codes/Verification/Convergence/DG_avg.py	/^sigma = Constant(SIG)$/;"	v
+sigma_bnd	Codes/Pressure_driven/Barrier/FD_Limited.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Verification/Convergence/DG+FL+SL.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Verification/Convergence/DG+FL.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Verification/Convergence/DG+SL.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Verification/Convergence/DG.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+sigma_bnd	Codes/Verification/Convergence/DG_avg.py	/^sigma_bnd = Constant(10*SIG)$/;"	v
+slope_limiter	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^slope_limiter = VertexBasedLimiter(v)$/;"	v
+slopelimiter	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^slopelimiter = VertexBasedLimiter(v)$/;"	v
+solMax	Codes/Pressure_driven/Barrier/FD_Limited.py	/^solMax = .85$/;"	v
+solMax	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^solMax = .85$/;"	v
+solMax	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^solMax = .85$/;"	v
+solMax	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^solMax = .85$/;"	v
+solMax	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^solMax = .85$/;"	v
+solMax	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^solMax = .85$/;"	v
+solMax	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^solMax = .85$/;"	v
+solMax	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^solMax = .85$/;"	v
+solMax	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^solMax = .85$/;"	v
+solMax	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^solMax = .85$/;"	v
+solMax	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^solMax = .85$/;"	v
+solMax	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^solMax = .85$/;"	v
+solMax	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^solMax = 1.0$/;"	v
+solMin	Codes/Pressure_driven/Barrier/FD_Limited.py	/^solMin = .20$/;"	v
+solMin	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^solMin = .20$/;"	v
+solMin	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^solMin = .20$/;"	v
+solMin	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^solMin = .20$/;"	v
+solMin	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^solMin = .20$/;"	v
+solMin	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^solMin = .20$/;"	v
+solMin	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^solMin = .2$/;"	v
+solMin	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^solMin = .2$/;"	v
+solMin	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^solMin = .2$/;"	v
+solMin	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^solMin = .2$/;"	v
+solMin	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^solMin = .2$/;"	v
+solMin	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^solMin = .10$/;"	v
+solMin	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^solMin = 0.0$/;"	v
+solve_end	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    solve_end = tm.time()$/;"	v
+solve_end	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    solve_end = tm.time()$/;"	v
+solve_end	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    solve_end = tm.time()$/;"	v
+solve_end	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    solve_end = tm.time()$/;"	v
+solve_end	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    solve_end = tm.time()$/;"	v
+solve_end	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    solve_end = tm.time()$/;"	v
+solve_start	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    solve_start = tm.time()$/;"	v
+solve_start	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    solve_start = tm.time()$/;"	v
+solve_start	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    solve_start = tm.time()$/;"	v
+solve_start	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    solve_start = tm.time()$/;"	v
+solve_start	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    solve_start = tm.time()$/;"	v
+solve_start	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    solve_start = tm.time()$/;"	v
+solver	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+solver	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    solver = NonlinearVariationalSolver(problem,solver_parameters=$/;"	v
+stepfunc	Codes/Pressure_driven/Barrier/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Pressure_driven/Gravity/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Pressure_driven/Homogen/Compare/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Pressure_driven/Nonhomogen/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Quarter_five_spot/Gravity/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Quarter_five_spot/Homogen/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Quarter_five_spot/SPE10/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Verification/1D_Buckley_Leverett/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Verification/2D_BUckley_Leverett/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+stepfunc	Codes/Verification/Convergence/Limiter/hsign.py	/^        def stepfunc(x):$/;"	f	function:SignFlip.HSIGN
+subprocess	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^import subprocess$/;"	i
+subprocess	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^import subprocess$/;"	i
+sys	Codes/Pressure_driven/Barrier/FD_Limited.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^import math,sys$/;"	i
+sys	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+sys	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^import math,sys,time$/;"	i
+sys	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^import math,sys$/;"	i
+sys	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^import math,sys,time$/;"	i
+sys	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^import math,sys,time$/;"	i
+sys	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^import math,sys,time$/;"	i
+sys	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^import math,sys$/;"	i
+sys	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^import math,sys,time$/;"	i
+sys	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^import math,sys$/;"	i
+sys	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^import sys$/;"	i
+sys	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+sys	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^import sys$/;"	i
+sys	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^import math,sys$/;"	i
+sys	Codes/Verification/Convergence/DG+FL+SL.py	/^import math,sys$/;"	i
+sys	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^import math,sys$/;"	i
+sys	Codes/Verification/Convergence/DG+FL.py	/^import math,sys$/;"	i
+sys	Codes/Verification/Convergence/DG+SL.py	/^import math,sys$/;"	i
+sys	Codes/Verification/Convergence/DG.py	/^import math,sys$/;"	i
+sys	Codes/Verification/Convergence/DG_avg.py	/^import math,sys$/;"	i
+sys	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^import math,sys$/;"	i
+t	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^t = 0$/;"	v
+t	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^t = 0.$/;"	v
+theta	Codes/Pressure_driven/Barrier/FD_Limited.py	/^theta = 2$/;"	v
+theta	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^theta = 2$/;"	v
+theta	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^theta = 2$/;"	v
+theta	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^theta = 2$/;"	v
+theta	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^theta = 2$/;"	v
+theta	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^theta = 2$/;"	v
+theta	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^theta = 3$/;"	v
+theta	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^theta = 3$/;"	v
+theta	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^theta = 3$/;"	v
+theta	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^theta = 3$/;"	v
+theta	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^theta = 2$/;"	v
+time	Codes/Pressure_driven/Barrier/FD_Limited.py	/^time = 0$/;"	v
+time	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^time = 0$/;"	v
+time	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^time = 0$/;"	v
+time	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^time = 0$/;"	v
+time	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^time = 0$/;"	v
+time	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^time = 0$/;"	v
+time	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^import math,sys,time$/;"	i
+time	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^time = 0$/;"	v
+time	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^import math,sys,time$/;"	i
+time	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^time = 0$/;"	v
+time	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^import math,sys,time$/;"	i
+time	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^time = 0$/;"	v
+time	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^import math,sys,time$/;"	i
+time	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^time = 0$/;"	v
+time	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^import math,sys,time$/;"	i
+time	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^time = 0$/;"	v
+time	Codes/Verification/Convergence/DG+FL+SL.py	/^time = 0$/;"	v
+time	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^time = 0$/;"	v
+time	Codes/Verification/Convergence/DG+FL.py	/^time = 0$/;"	v
+time	Codes/Verification/Convergence/DG+SL.py	/^time = 0$/;"	v
+time	Codes/Verification/Convergence/DG.py	/^time = 0$/;"	v
+time	Codes/Verification/Convergence/DG_avg.py	/^time = 0$/;"	v
+time_	Codes/Verification/Convergence/DG+FL+SL.py	/^time_ = Constant(0)$/;"	v
+time_	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^time_ = Constant(0)$/;"	v
+time_	Codes/Verification/Convergence/DG+FL.py	/^time_ = Constant(0)$/;"	v
+time_	Codes/Verification/Convergence/DG+SL.py	/^time_ = Constant(0)$/;"	v
+time_	Codes/Verification/Convergence/DG.py	/^time_ = Constant(0)$/;"	v
+time_	Codes/Verification/Convergence/DG_avg.py	/^time_ = Constant(0)$/;"	v
+tm	Codes/Pressure_driven/Barrier/FD_Limited.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Barrier/Limiter/flux_limiter.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Gravity/Limiter/flux_limiter.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Homogen/Compare/Limiter/flux_limiter.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Homogen/NIPGvsUpwind/Limiter/flux_limiter.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^import time as tm$/;"	i
+tm	Codes/Pressure_driven/Nonhomogen/Limiter/flux_limiter.py	/^import time as tm$/;"	i
+tm	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^import time as tm$/;"	i
+tm	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^import time as tm$/;"	i
+tm	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^import time as tm$/;"	i
+tm	Codes/Verification/1D_Buckley_Leverett/Limiter/flux_limiter.py	/^import time as tm$/;"	i
+tm	Codes/Verification/2D_BUckley_Leverett/Limiter/flux_limiter.py	/^import time as tm$/;"	i
+tm	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^import time as tm$/;"	i
+u	Codes/Pressure_driven/Barrier/FD_Limited.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^u = Function(m).interpolate(u0)$/;"	v
+u	Codes/Verification/Convergence/DG+FL+SL.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Verification/Convergence/DG+FL.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Verification/Convergence/DG+SL.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Verification/Convergence/DG.py	/^u = Function(wSpace)$/;"	v
+u	Codes/Verification/Convergence/DG_avg.py	/^u = Function(wSpace)$/;"	v
+u0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^u0 = as_vector([3e-7, 0])$/;"	v
+u0	Codes/Verification/Convergence/DG+FL+SL.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Verification/Convergence/DG+FL.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Verification/Convergence/DG+SL.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Verification/Convergence/DG.py	/^u0 = Function(wSpace)$/;"	v
+u0	Codes/Verification/Convergence/DG_avg.py	/^u0 = Function(wSpace)$/;"	v
+u_error	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^    u_error = Function(kSpace)$/;"	v
+u_error	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    u_error = Function(kSpace)$/;"	v
+u_error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    u_error = Function(kSpace)$/;"	v
+u_error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    u_error = Function(kSpace)$/;"	v
+u_error	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    u_error = Function(kSpace)$/;"	v
+u_error	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    u_error = Function(kSpace)$/;"	v
+v	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^v = FunctionSpace(mesh, "DG", 1)$/;"	v
+v	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^v = FunctionSpace(mesh, "DG", 1)$/;"	v
+v0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^    v0 = Function(vSpace).interpolate(-1*K*lmbda_w(s0)*(grad(p0)-rhow*g))$/;"	v
+v0	Codes/Pressure_driven/Barrier/FD_Limited.py	/^v0 = interpolate( as_vector((0,0)),vSpace)$/;"	v
+v0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^    v0 = Function(vSpace).interpolate(-1*K*lmbda_w(s0)*(grad(p0)-rhow*g))$/;"	v
+v0	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^v0 = interpolate( as_vector((0,0)),vSpace)$/;"	v
+v0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^    v0 = Function(vSpace).interpolate(-1*lmbda_w(s0)*(grad(p0)-rhow_v*g_v))$/;"	v
+v0	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^v0 = interpolate( as_vector((0,0)),vSpace)$/;"	v
+v0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^    v0 = Function(vSpace).interpolate(-1*K*lmbda_w(s0)*(grad(p0)-rhow*g))$/;"	v
+v0	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^v0 = interpolate( as_vector((0,0)),vSpace)$/;"	v
+v0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    v0 = Function(vSpace).interpolate(-1*K*lmbda_w(s0)*(grad(p0)-rhow_0*g))$/;"	v
+v0	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^v0 = interpolate( as_vector((0,0)),vSpace)$/;"	v
+v0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    v0 = Function(vSpace).interpolate(-1*K*lmbda_w(s0)*(grad(p0)-rhow_0*g))$/;"	v
+v0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^v0 = interpolate( as_vector((0,0)),vSpace)$/;"	v
+v0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    v0 = Function(vSpace).interpolate(-1*K*lmbda_w(s0)*(grad(p0)-rhow_0*g))$/;"	v
+v0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^v0 = interpolate( as_vector((0,0)),vSpace)$/;"	v
+v0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    v0 = Function(vSpace).interpolate(-1*K*lmbda_w(s0)*(grad(p0)-rhow_0*g))$/;"	v
+v0	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^v0 = interpolate( as_vector((0,0)),vSpace)$/;"	v
+v0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    v0 = Function(vSpace).interpolate(-1*K*lmbda_w(s0)*(grad(p0)-rhow_0*g))$/;"	v
+v0	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^v0 = interpolate( as_vector((0,0)),vSpace)$/;"	v
+vSpace	Codes/Pressure_driven/Barrier/FD_Limited.py	/^vSpace = VectorFunctionSpace(mesh,"DG" , 1)$/;"	v
+vSpace	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^vSpace = VectorFunctionSpace(mesh,"DG" , 1)$/;"	v
+vSpace	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^vSpace = VectorFunctionSpace(mesh, "DG", 1)$/;"	v
+vSpace	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^vSpace = VectorFunctionSpace(mesh,"DG" , 1)$/;"	v
+vSpace	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^vSpace = VectorFunctionSpace(mesh,"DG" , 1)$/;"	v
+vSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^vSpace = VectorFunctionSpace(mesh,"DG" , 1)$/;"	v
+vSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^vSpace = VectorFunctionSpace(mesh,"DG" , 1)$/;"	v
+vSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^vSpace = VectorFunctionSpace(mesh,"DG" , 1)$/;"	v
+vSpace	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^vSpace = VectorFunctionSpace(mesh,"DG" , 1)$/;"	v
+v_CG	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^v_CG = FunctionSpace(mesh,"CG",1)$/;"	v
+value_shape	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    def value_shape(self):$/;"	m	class:MyExpression
+w	Codes/Pressure_driven/Barrier/FD_Limited.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Verification/Convergence/DG+FL+SL.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Verification/Convergence/DG+FL.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Verification/Convergence/DG+SL.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Verification/Convergence/DG.py	/^w = TestFunction(Vt)$/;"	v
+w	Codes/Verification/Convergence/DG_avg.py	/^w = TestFunction(Vt)$/;"	v
+wSpace	Codes/Pressure_driven/Barrier/FD_Limited.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Verification/Convergence/DG+FL+SL.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Verification/Convergence/DG+FL.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Verification/Convergence/DG+SL.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Verification/Convergence/DG.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wSpace	Codes/Verification/Convergence/DG_avg.py	/^wSpace = MixedFunctionSpace([pSpace,sSpace])$/;"	v
+wells_avg	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^    wells_avg = Function(kSpace).interpolate(( f_w(0.85) * q_I - f_w(s0)*q_P ))$/;"	v
+wells_avg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^    wells_avg = Function(kSpace).interpolate(( f_w(0.85) * q_I - f_w(s0)*q_P ))$/;"	v
+wells_avg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^    wells_avg = Function(kSpace).interpolate(( f_w(0.85) * q_I - f_w(s0)*q_P ))$/;"	v
+wells_avg	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^    wells_avg = Function(kSpace).interpolate(( f_w(0.85) * q_I - f_w(s0)*q_P ))$/;"	v
+wells_avg	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^    wells_avg = Function(kSpace).interpolate(( f_w(0.85) * q_I - f_w(s0)*q_P ))$/;"	v
+wells_update	Codes/Quarter_five_spot/Gravity/Limiter/flux_limiter_well.py	/^    def wells_update(self,s):$/;"	m	class:flux_limiter
+wells_update	Codes/Quarter_five_spot/Homogen/Limiter/flux_limiter_well.py	/^    def wells_update(self,s):$/;"	m	class:flux_limiter
+wells_update	Codes/Quarter_five_spot/SPE10/Limiter/flux_limiter_well.py	/^    def wells_update(self,s):$/;"	m	class:flux_limiter
+wells_update	Codes/Verification/Convergence/Limiter/flux_limiter_well.py	/^    def wells_update(self,s):$/;"	m	class:flux_limiter
+x	Codes/Pressure_driven/Barrier/FD_Limited.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Pressure_driven/Barrier/FD_mesh_noLimiter.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Pressure_driven/Gravity/FD_incompressible.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Pressure_driven/Homogen/Compare/FD_incompressible_new.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Pressure_driven/Homogen/NIPGvsUpwind/FD_incompressible.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Pressure_driven/Nonhomogen/FD_incompressible.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Quarter_five_spot/Gravity/FD_well_incompressible.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Quarter_five_spot/Homogen/FD_well_incompressible+SL.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Quarter_five_spot/Homogen/FD_well_incompressible.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Quarter_five_spot/Homogen/FD_well_incompressible_nolimiter.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Quarter_five_spot/SPE10/FD_well_incompressible.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Verification/1D_Buckley_Leverett/BL_Implicit.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Verification/2D_BUckley_Leverett/Implicit.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Verification/Convergence/DG+FL+SL.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Verification/Convergence/DG+FL+SL_avg.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Verification/Convergence/DG+FL.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Verification/Convergence/DG+SL.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Verification/Convergence/DG.py	/^x = SpatialCoordinate(mesh)$/;"	v
+x	Codes/Verification/Convergence/DG_avg.py	/^x = SpatialCoordinate(mesh)$/;"	v
