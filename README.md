@@ -1,8 +1,12 @@
-<center> <h1>Codes for a bound-preserving discontinuous Galerkin solver for incompressible two-phase flow problem implemented in Firedrake project</h1> </center>
+<center> <h1>Codes for a bound-preserving discontinuous Galerkin solver for incompressible two-phase flow problem </h1> </center>
 
 Numerical examples for
 > Mohammad. S. Joshaghani and Beatrice Riviere,
 > ``Maximum-principle-satisfying discontinuous Galerkin methods for incompressible two-phase immiscible flow" Available in [arXiv](https://arxiv.org/abs/2106.11807).
+> <details><summary>[Abstract]</summary>
+><p> This paper proposes a fully implicit numerical scheme for immiscible incompressible two-phase flow in porous media taking into account gravity, capillary effects, and heterogeneity. The objective is to develop a fully implicit stable discontinuous Galerkin (DG) solver for this system that is accurate, bound-preserving, and locally mass conservative. To achieve this, we augment our DG formulation with post-processing flux and slope limiters. The proposed framework is applied to several benchmark problems and the discrete solutions are shown to be accurate, to satisfy the maximum principle and local mass conservation. 
+></p>
+></details>
 
 In this repository, we have provided python computer codes for the numerical solution of immiscible two-phase flows in porous media,
 which is obtained by augmenting interior penalty DG formulation with post-processing flux and slope limiters. 
@@ -15,7 +19,36 @@ At each time step, following the Newton solver convergence, we first apply a new
 Implementation of the flux limiter algorithm is provided in the module ***FluxLimiter*** along with an auxiliary 
 flux wrapper module named ***Hsign***. As for the slope limiter, we use the native ***VertexBasedLimiter*** module embedded in the 
 Firedrake project.
+## Representative results
+![](./Video/Video1a.gif)
+<p align="center">
+This video shows the evolution of saturation profile using DG scheme without limiter (left) and with the proposed limiters (right) for duration of 4500 s. The color mapping for the physical of range of 0.2 to 0.85 is grayscale, while values below and above bounds are colored blue and red, respectively. It is evident that DG approximation with no limiter yields noticeable violations, while the proposed limited DG scheme is capable of providing maximum-principle satisfying results. In spite of this, the front under both unlimited and limited DG, propagates with the same speed. For more details refer to section 4.2.3 of paper.
+</p>
 
+![](./Video/Video4.gif)
+<p align="center">
+Top row illustrates the permeability fields adopted from two horizontal layers of SPE10 
+model 2 data-set. Layer 13 is taken from relatively smooth Tarbert formation, whereas layer 73 
+is taken from a highly varying Upper-Ness formation. Values are presented in logarithmic scale. 
+satisfying results at all time steps.
+The video shows the evolution of the saturation obtained using DG+FL+SL scheme for 
+layer 13 (bottom left) and layer 73 (bottom right). The simulation runs to T=1.374.
+For both cases, the wetting phase moves toward the production well by sweeping the regions with 
+highest permeability values. Another observation is that proposed limiters yield physical
+values of saturation, without any overshoots and undershoots, even for domains with
+permeabilities that vary over several orders of magnitudes. For more details refer to section 4.3.2 paper.
+</p>
+
+
+![](./Video/Video6a.gif)
+<p align="center">
+This video shows saturation contours for duration of 11 days for different gravity numbers.
+DG+FL+SL scheme is applied that leads to satisfactory results with respect to maximum principle.
+By increasing the difference in phases density, gravitational force dominates the viscous force 
+(from left to right). This results in more wetting phase saturation to be deposited at the bottom 
+of domain and hence less non-wetting phase is recovered at the production well. 
+For more details refer to section 4.4.2 of paper.
+</p>
 
 ## Project tree
 ```
@@ -100,10 +133,4 @@ Firedrake project.
 
 27 directories, 50 files
 ```
-
-
-![](./Video/Video1a.gif)
-<center>
-This video shows the evolution of saturation profile using DG scheme without limiter (left) and with the proposed limiters (right) for duration of 4500 s. The color mapping for the physical of range of 0.2 to 0.85 is grayscale, while values below and above bounds are colored blue and red, respectively. It is evident that DG approximation with no limiter yields noticeable violations, while the proposed limited DG scheme is capable of providing maximum-principle satisfying results. In spite of this, the front under both unlimited and limited DG, propagates with the same speed.
-</center>
 
