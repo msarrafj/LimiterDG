@@ -2,7 +2,7 @@
 
 Numerical examples for
 > Mohammad. S. Joshaghani and Beatrice Riviere,
-> ``Maximum-principle-satisfying discontinuous Galerkin methods for incompressible two-phase immiscible flow" Available in [arXiv](https://arxiv.org/abs/).
+> ``Maximum-principle-satisfying discontinuous Galerkin methods for incompressible two-phase immiscible flow" Available in [arXiv](https://arxiv.org/abs/2106.11807).
 
 In this repository, we have provided python computer codes for the numerical solution of immiscible two-phase flows in porous media,
 which is obtained by augmenting interior penalty DG formulation with post-processing flux and slope limiters. 
@@ -103,6 +103,7 @@ Firedrake project.
 
 
 ![](./Video/Video1a.gif)
-*
-This video shows the evolution of saturation profile using DG scheme without limiter (left) and with the proposed limiters (right) for duration of 4500 s. The color mapping for the physical of range of 0.2 to 0.85 is grayscale, while values below and above bounds are colored blue and red, respectively. It is evident that DG approximation with no limiter yields noticeable violations, while limited DG scheme is capable of providing maximum-principle satisfying results. In spite of this, the front under both unlimited and limited DG, propagates with the same speed.
-*
+<center>
+This video shows the evolution of saturation profile using DG scheme without limiter (left) and with the proposed limiters (right) for duration of 4500 s. The color mapping for the physical of range of 0.2 to 0.85 is grayscale, while values below and above bounds are colored blue and red, respectively. It is evident that DG approximation with no limiter yields noticeable violations, while the proposed limited DG scheme is capable of providing maximum-principle satisfying results. In spite of this, the front under both unlimited and limited DG, propagates with the same speed.
+</center>
+
