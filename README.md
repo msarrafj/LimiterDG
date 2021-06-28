@@ -102,4 +102,7 @@ Firedrake project.
 ```
 
 
-![This video shows the evolution of saturation profile using DG scheme without limiter (left) and with the proposed limiters (right) for duration of 4500 s. The color mapping for the physical of range of 0.2 to 0.85 is grayscale, while values below and above bounds are colored blue and red, respectively. It is evident that DG approximation with no limiter yields noticeable violations, while limited DG scheme is capable of providing maximum-principle satisfying results. In spite of this, the front under both unlimited and limited DG, propagates with the same speed.](./Video/Video1a.gif)
+![](./Video/Video1a.gif)
+*
+This video shows the evolution of saturation profile using DG scheme without limiter (left) and with the proposed limiters (right) for duration of 4500 s. The color mapping for the physical of range of 0.2 to 0.85 is grayscale, while values below and above bounds are colored blue and red, respectively. It is evident that DG approximation with no limiter yields noticeable violations, while limited DG scheme is capable of providing maximum-principle satisfying results. In spite of this, the front under both unlimited and limited DG, propagates with the same speed.
+*
